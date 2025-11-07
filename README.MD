@@ -1,4 +1,4 @@
-# NLP/LLM-Based Intimate Partner Violence (IPV) Detection
+# Fairness of NLP/LLM-Based Intimate Partner Violence (IPV) Detection Models
 
 This repository tracks experiments that benchmark large language models on IPV detection tasks. The goal is to keep the evaluation pipeline stable while we iterate on prompts, datasets, and model families (open-source and proprietary). Everything needed to rerun an experiment—from prompts to metrics to sample code—lives inside this repo so collaborators can pick up progress quickly.
 
