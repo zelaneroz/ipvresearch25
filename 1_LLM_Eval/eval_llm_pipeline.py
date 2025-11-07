@@ -11,8 +11,9 @@ instantiated, the pipeline can generate the five requested artefacts:
 4. Tabular metrics (accuracy, precision, F1, ROC-AUC) printed + optionally saved.
 5. Multitype confidence waterfall plot (only built when ``task='multitype'``).
 
-† Multitype computations run one-vs-rest per subtype (Physical, Emotional, Sexual)
-  and aggregate the per-class ROC-AUCs.
+† Multitype computations still track subtype scores internally, but plots now rely
+  on exact-match correctness vs. model confidence so every figure captures how
+  often the model predicted the full label set perfectly.
 
 Public API quick reference
 --------------------------
@@ -98,6 +99,13 @@ _SCORE_COLUMNS = (
     "logprob",
 )
 _LABEL_COLUMNS = ("extracted_label", "prediction", "predicted_label", "label")
+_CONFIDENCE_COLUMNS = (
+    "confidence_score",
+    "confidence",
+    "avg_confidence",
+    "confidenceScore",
+    "confidence_scores",
+)
 
 
 def _to_int_series(series: pd.Series) -> pd.Series:
@@ -186,6 +194,15 @@ def _prepare_multilabel_truth(ground_truth: pd.DataFrame) -> pd.DataFrame:
     cols = list(MULTI_LABELS)
     df[cols] = df[cols].apply(_to_int_series)
     return df[["id", *MULTI_LABELS]]
+
+
+def _extract_confidence_series(df: pd.DataFrame) -> Optional[pd.Series]:
+    for col in _CONFIDENCE_COLUMNS:
+        if col in df.columns:
+            ser = pd.to_numeric(df[col], errors="coerce")
+            if ser.notna().any():
+                return ser
+    return None
 
 
 def _try_parse_json_blob(text: str) -> Optional[dict]:
@@ -380,6 +397,8 @@ class _EvalResult:
     y_pred: np.ndarray
     y_scores: Union[np.ndarray, Dict[str, np.ndarray]]
     df_pred: pd.DataFrame
+    sample_scores: Optional[np.ndarray] = None
+    exact_match: Optional[np.ndarray] = None
 
 
 class LLMEvalPipeline:
@@ -472,27 +491,21 @@ class LLMEvalPipeline:
         plt.figure(figsize=(8, 5))
 
         names = list(self._evaluations.keys())
-        if self.task == "binary":
-            aucs = [self._evaluations[name].metrics["roc_auc"] for name in names]
-            plt.bar(names, aucs, color="#3E7CB1")
-            plt.ylim(0, 1)
-            plt.ylabel("ROC-AUC")
-            plt.title("Binary ROC-AUC by Prompt/Model")
-        else:
-            x = np.arange(len(names))
-            width = 0.25
-            for idx, cls in enumerate(MULTI_LABELS):
-                offsets = x + (idx - 1) * width
-                vals = [
-                    self._evaluations[name].metrics["per_class_roc_auc"][cls]
-                    for name in names
-                ]
-                plt.bar(offsets, vals, width=width, label=cls)
-            plt.xticks(x, names)
-            plt.ylim(0, 1)
-            plt.ylabel("One-vs-Rest ROC-AUC")
-            plt.title("Multitype ROC-AUC by Prompt/Model")
-            plt.legend()
+        aucs = [self._evaluations[name].metrics["roc_auc"] for name in names]
+        plt.bar(names, aucs, color="#3E7CB1")
+        plt.ylim(0, 1)
+        ylabel = (
+            "ROC-AUC"
+            if self.task == "binary"
+            else "Exact-match ROC-AUC (confidence vs correctness)"
+        )
+        title = (
+            "Binary ROC-AUC by Prompt/Model"
+            if self.task == "binary"
+            else "Multitype ROC-AUC by Prompt/Model"
+        )
+        plt.ylabel(ylabel)
+        plt.title(title)
 
         plt.tight_layout()
         plt.savefig(out_path, dpi=200)
@@ -501,7 +514,7 @@ class LLMEvalPipeline:
 
     def plot_roc_curves(self, filename_prefix: str = "roc_curve") -> List[Path]:
         """
-        Overlay ROC curves for every model. Multitype tasks emit one figure per class.
+        Overlay ROC curves for every model. Multitype tasks use exact-match correctness vs confidence.
         """
         outputs: List[Path] = []
         if self.task == "binary":
@@ -522,25 +535,26 @@ class LLMEvalPipeline:
             outputs.append(out_path)
             return outputs
 
-        # Multitype → per-class figure
-        for cls in MULTI_LABELS:
-            out_path = self.output_dir / f"{filename_prefix}_{cls.lower()}.png"
-            plt.figure(figsize=(7, 6))
-            for name, result in self._evaluations.items():
-                y_true_cls = result.y_true[:, MULTI_LABELS.index(cls)]
-                y_score_cls = result.y_scores[cls]
-                fpr, tpr, _ = roc_curve(y_true_cls, y_score_cls)
-                auc_val = result.metrics["per_class_roc_auc"][cls]
-                plt.plot(fpr, tpr, label=f"{name} (AUC={auc_val:.3f})")
-            plt.plot([0, 1], [0, 1], linestyle="--", color="gray")
-            plt.xlabel("False Positive Rate")
-            plt.ylabel("True Positive Rate")
-            plt.title(f"ROC Curve — {cls}")
-            plt.legend()
-            plt.tight_layout()
-            plt.savefig(out_path, dpi=200)
-            plt.close()
-            outputs.append(out_path)
+        out_path = self.output_dir / f"{filename_prefix}.png"
+        plt.figure(figsize=(7, 6))
+        for name, result in self._evaluations.items():
+            y_true_exact = result.exact_match
+            if y_true_exact is None or result.sample_scores is None:
+                raise RuntimeError(
+                    "Multitype ROC curves require confidence scores and exact-match flags."
+                )
+            fpr, tpr, _ = roc_curve(y_true_exact, result.sample_scores)
+            auc_val = result.metrics["roc_auc"]
+            plt.plot(fpr, tpr, label=f"{name} (AUC={auc_val:.3f})")
+        plt.plot([0, 1], [0, 1], linestyle="--", color="gray")
+        plt.xlabel("False Positive Rate")
+        plt.ylabel("True Positive Rate")
+        plt.title("ROC Curve — Exact-match vs Confidence")
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(out_path, dpi=200)
+        plt.close()
+        outputs.append(out_path)
         return outputs
 
     def plot_precision_vs_residual(
@@ -571,27 +585,30 @@ class LLMEvalPipeline:
             outputs.append(out_path)
             return outputs
 
-        for cls in MULTI_LABELS:
-            out_path = self.output_dir / f"{filename_prefix}_{cls.lower()}.png"
-            plt.figure(figsize=(7, 6))
-            for name, result in self._evaluations.items():
-                y_true_cls = result.y_true[:, MULTI_LABELS.index(cls)]
-                y_score_cls = result.y_scores[cls]
-                precision, recall, _ = precision_recall_curve(y_true_cls, y_score_cls)
-                residual = 1 - recall
-                plt.plot(
-                    residual,
-                    precision,
-                    label=f"{name} ({cls})",
+        out_path = self.output_dir / f"{filename_prefix}.png"
+        plt.figure(figsize=(7, 6))
+        for name, result in self._evaluations.items():
+            if result.sample_scores is None or result.exact_match is None:
+                raise RuntimeError(
+                    "Multitype precision-residual plots require confidence scores."
                 )
-            plt.xlabel("Residual (1 - Recall)")
-            plt.ylabel("Precision")
-            plt.title(f"Precision vs Residual — {cls}")
-            plt.legend()
-            plt.tight_layout()
-            plt.savefig(out_path, dpi=200)
-            plt.close()
-            outputs.append(out_path)
+            precision, recall, _ = precision_recall_curve(
+                result.exact_match, result.sample_scores
+            )
+            residual = 1 - recall
+            plt.plot(
+                residual,
+                precision,
+                label=f"{name}",
+            )
+        plt.xlabel("Residual (1 - Recall)")
+        plt.ylabel("Precision")
+        plt.title("Precision vs Residual — Exact-match correctness")
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(out_path, dpi=200)
+        plt.close()
+        outputs.append(out_path)
         return outputs
 
     def multi_confidence_score_plot(
@@ -605,64 +622,68 @@ class LLMEvalPipeline:
 
         outputs: List[Path] = []
         for name, result in self._evaluations.items():
-            df = result.df_pred.copy()
-            if "confidence_score" in df.columns:
-                confidence = pd.to_numeric(df["confidence_score"], errors="coerce").fillna(0.0)
-            else:
-                # fallback: use max score across subtypes
-                scores = np.vstack([result.y_scores[cls] for cls in MULTI_LABELS]).T
-                confidence = pd.Series(scores.max(axis=1), index=df.index)
-                df["confidence_score"] = confidence
+            if result.sample_scores is None:
+                raise RuntimeError("Confidence scores missing for multitype plot.")
 
-            # Determine dominant predicted class.
-            def _top_class(row: pd.Series) -> str:
-                for cls in MULTI_LABELS:
-                    col = f"{cls}_pred"
-                    if col in row and row[col] == 1:
-                        return cls
-                return "Negative"
+            n_samples = len(result.sample_scores)
+            pred_matrix = result.y_pred
+            score_map = {cls: result.y_scores[cls] for cls in MULTI_LABELS}
 
-            for cls in MULTI_LABELS:
-                pred_col = f"{cls}_pred"
-                if pred_col not in df.columns:
-                    df[pred_col] = (
-                        result.y_scores[cls] > 0.5
-                    ).astype(int)
+            def _dominant_type(idx: int) -> str:
+                positives = [
+                    cls
+                    for cls_idx, cls in enumerate(MULTI_LABELS)
+                    if pred_matrix[idx, cls_idx] == 1
+                ]
+                if not positives:
+                    return "Not IPV"
+                if len(positives) == 1:
+                    return positives[0]
+                return max(positives, key=lambda cls: score_map[cls][idx])
 
-            df["PredictedType"] = df.apply(_top_class, axis=1)
-            df = df.sort_values("confidence_score", ascending=False).reset_index(drop=True)
+            plot_df = pd.DataFrame(
+                {
+                    "confidence": np.clip(result.sample_scores, 0.0, 1.0),
+                    "PredictedType": [_dominant_type(i) for i in range(n_samples)],
+                }
+            )
 
             colors = {
-                "Physical": "#2ECC71",
                 "Emotional": "#F4D03F",
+                "Physical": "#2ECC71",
                 "Sexual": "#9B59B6",
-                "Negative": "#E74C3C",
+                "Not IPV": "#E74C3C",
             }
-            df["Color"] = df["PredictedType"].map(colors)
+            plot_df["Color"] = plot_df["PredictedType"].map(colors)
+            plot_df = plot_df.sort_values("confidence", ascending=False).reset_index(drop=True)
 
-            per_class_auc = result.metrics["per_class_roc_auc"]
-            legend_labels = [
-                f"{cls} (AUC={per_class_auc[cls]:.2f})" for cls in MULTI_LABELS
-            ] + ["Negative"]
+            legend_entries = [
+                f"Emotional (AUC={result.metrics['per_class_roc_auc']['Emotional']:.2f})",
+                f"Physical (AUC={result.metrics['per_class_roc_auc']['Physical']:.2f})",
+                f"Sexual (AUC={result.metrics['per_class_roc_auc']['Sexual']:.2f})",
+                "Not IPV",
+            ]
+            legend_handles = [
+                plt.Line2D([0], [0], color=colors[label], lw=4, label=entry)
+                for label, entry in zip(
+                    ["Emotional", "Physical", "Sexual", "Not IPV"], legend_entries
+                )
+            ]
 
             out_path = self.output_dir / f"{filename_prefix}_{name}.png"
-            plt.figure(figsize=(12, 4))
+            plt.figure(figsize=(13, 4))
             plt.bar(
-                x=np.arange(len(df)),
-                height=df["confidence_score"],
-                color=df["Color"],
+                x=np.arange(len(plot_df)),
+                height=plot_df["confidence"],
+                color=plot_df["Color"],
                 width=1.0,
                 edgecolor="none",
             )
-            plt.ylim(0, max(1.0, df["confidence_score"].max() * 1.05))
-            plt.xlabel("Samples (sorted by confidence)")
+            plt.ylim(0, max(1.0, plot_df["confidence"].max() * 1.05))
+            plt.xlabel("Sentences (sorted by confidence)")
             plt.ylabel("Confidence Score")
-            plt.title(f"{name} — Multitype Confidence Waterfall")
-            handles = [
-                plt.Line2D([0], [0], color=colors.get(lbl.split()[0], "#999999"), lw=4)
-                for lbl in legend_labels
-            ]
-            plt.legend(handles, legend_labels, loc="upper right")
+            plt.title(f"{name} — IPV subtype predictions")
+            plt.legend(handles=legend_handles, loc="upper right", frameon=False)
             plt.tight_layout()
             plt.savefig(out_path, dpi=200)
             plt.close()
@@ -697,6 +718,8 @@ class LLMEvalPipeline:
                     y_pred=y_pred_arr,
                     y_scores=y_score_arr,
                     df_pred=merged,
+                    sample_scores=y_score_arr,
+                    exact_match=(y_true == y_pred_arr).astype(int),
                 )
             else:
                 preds = _extract_multilabel_predictions(df_pred)
@@ -724,8 +747,25 @@ class LLMEvalPipeline:
                     else:
                         scores[cls] = y_pred_arr[:, MULTI_LABELS.index(cls)].astype(float)
 
+                confidence_series = _extract_confidence_series(merged)
+                if confidence_series is not None:
+                    confidence = (
+                        confidence_series.fillna(0.0)
+                        .clip(lower=0.0, upper=1.0)
+                        .to_numpy(dtype=float)
+                    )
+                else:
+                    score_matrix = np.vstack([scores[cls] for cls in MULTI_LABELS]).T
+                    confidence = np.clip(score_matrix.max(axis=1), 0.0, 1.0)
+
+                exact_match = (y_true == y_pred_arr).all(axis=1).astype(int)
+
                 metrics = self._compute_multilabel_metrics(
-                    y_true=y_true, y_pred=y_pred_arr, y_scores=scores
+                    y_true=y_true,
+                    y_pred=y_pred_arr,
+                    y_scores=scores,
+                    exact_match=exact_match,
+                    confidence=confidence,
                 )
                 self._evaluations[name] = _EvalResult(
                     name=name,
@@ -734,6 +774,8 @@ class LLMEvalPipeline:
                     y_pred=y_pred_arr,
                     y_scores=scores,
                     df_pred=merged,
+                    sample_scores=confidence,
+                    exact_match=exact_match,
                 )
 
     def _compute_binary_metrics(
@@ -752,6 +794,8 @@ class LLMEvalPipeline:
         y_true: np.ndarray,
         y_pred: np.ndarray,
         y_scores: Dict[str, np.ndarray],
+        exact_match: np.ndarray,
+        confidence: np.ndarray,
     ) -> Dict[str, float]:
         metrics: Dict[str, float] = {}
         metrics["accuracy"] = float((y_true == y_pred).all(axis=1).mean())
@@ -769,7 +813,7 @@ class LLMEvalPipeline:
         for idx, cls in enumerate(MULTI_LABELS):
             per_class_auc[cls] = _safe_auc(y_true[:, idx], y_scores[cls])
         metrics["per_class_roc_auc"] = per_class_auc
-        metrics["roc_auc"] = float(
-            np.nanmean(list(per_class_auc.values()))
-        )
+        metrics["exact_match_accuracy"] = float(exact_match.mean())
+        metrics["roc_auc_macro"] = float(np.nanmean(list(per_class_auc.values())))
+        metrics["roc_auc"] = _safe_auc(exact_match, confidence)
         return metrics
