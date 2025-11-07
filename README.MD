@@ -29,8 +29,6 @@ Focus: broaden coverage beyond open models and stress-test on a newer dataset.
 
 ## Next Steps
 1. **Finalize GPT-5 (or other proprietary) sampling plan**: document prompts + temperature settings alongside the existing prompt collection in [1_LLM_Eval/prompts.md](1_LLM_Eval/prompts.md).
-2. **Extend the evaluation cache**: log proprietary outputs under `1_LLM_Eval/test_results/` with timestamped filenames so they can be replayed without rerunning expensive calls.
-3. **Integrate the new dataset**: add a sanitized CSV/Parquet placeholder (or loader script) plus clear instructions for accessing the private source.
-4. **Benchmark summary**: once Week 2 runs complete, update this README with comparative charts (binary vs multitype, open vs proprietary) to give stakeholders a quick snapshot.
-
-Feel free to open [1_LLM_Eval/eval_pipeline_sample_use.ipynb](1_LLM_Eval/eval_pipeline_sample_use.ipynb) and rerun the cells whenever new JSON predictions are available—the figures and CSVs will regenerate automatically under [1_LLM_Eval/test_results/figs/](1_LLM_Eval/test_results/figs/).
+2. **Integrate the new dataset**: add a sanitized CSV/Parquet placeholder (or loader script) plus clear instructions for accessing the private source.
+3. **Benchmark summary**: once Week 2 runs complete, update this README with comparative charts (binary vs multitype, open vs proprietary) to give stakeholders a quick snapshot.
+...
