@@ -956,6 +956,7 @@ def plot_confusion_matrix(
     ylabel: str = "Actual",
     class_names: Optional[List[str]] = None,
     normalize: bool = False,
+    use_tp_fp_labels: bool = False,
 ) -> plt.Axes:
     """
     Plot a confusion matrix.
@@ -978,6 +979,8 @@ def plot_confusion_matrix(
         Names for classes (e.g., ["NOT_IPV", "IPV"]). If None, uses indices.
     normalize : bool
         If True, normalize the confusion matrix to show percentages.
+    use_tp_fp_labels : bool
+        If True, use TP/FP/TN/FN labels for binary classification. Only works for 2x2 matrices.
 
     Returns
     -------
@@ -988,8 +991,8 @@ def plot_confusion_matrix(
     y_pred = np.asarray(y_pred, dtype=int)
 
     cm = confusion_matrix(y_true, y_pred)
-    if normalize:
-        cm = cm.astype("float") / cm.sum(axis=1)[:, np.newaxis]
+    total = len(y_true)
+    cm_normalized = cm.astype("float") / total if total > 0 else cm.astype("float")
 
     if ax is None:
         fig, ax = plt.subplots(figsize=(6, 5))
@@ -997,30 +1000,79 @@ def plot_confusion_matrix(
     im = ax.imshow(cm, interpolation="nearest", cmap=plt.cm.Blues)
     ax.figure.colorbar(im, ax=ax)
 
-    if class_names is None:
-        class_names = [str(i) for i in range(len(cm))]
+    # Handle TP/FP/TN/FN labels for binary classification
+    if use_tp_fp_labels and cm.shape == (2, 2):
+        # For binary: cm[0,0]=TN, cm[0,1]=FP, cm[1,0]=FN, cm[1,1]=TP
+        labels = ["True Negative", "False Positive", "False Negative", "True Positive"]
+        # Map to positions: [0,0]=TN, [0,1]=FP, [1,0]=FN, [1,1]=TP
+        label_map = {
+            (0, 0): "True Negative",
+            (0, 1): "False Positive",
+            (1, 0): "False Negative",
+            (1, 1): "True Positive",
+        }
+        
+        tick_marks = np.arange(2)
+        ax.set_xticks(tick_marks)
+        ax.set_yticks(tick_marks)
+        
+        # Set labels based on position
+        x_labels = [label_map.get((0, i), f"Class {i}") for i in range(2)]
+        y_labels = [label_map.get((i, 0), f"Class {i}") for i in range(2)]
+        
+        ax.set_xticklabels(x_labels)
+        ax.set_yticklabels(y_labels)
+        
+        # Show both count and percentage
+        thresh = cm.max() / 2.0
+        for i in range(cm.shape[0]):
+            for j in range(cm.shape[1]):
+                count = int(cm[i, j])
+                pct = cm_normalized[i, j]
+                text = f"{count}\n({pct:.2f})"
+                ax.text(
+                    j,
+                    i,
+                    text,
+                    horizontalalignment="center",
+                    verticalalignment="center",
+                    color="white" if cm[i, j] > thresh else "black",
+                    fontsize=10,
+                )
+    else:
+        # Standard confusion matrix
+        if class_names is None:
+            class_names = [str(i) for i in range(len(cm))]
 
-    tick_marks = np.arange(len(class_names))
-    ax.set_xticks(tick_marks)
-    ax.set_yticks(tick_marks)
-    ax.set_xticklabels(class_names)
-    ax.set_yticklabels(class_names)
+        tick_marks = np.arange(len(class_names))
+        ax.set_xticks(tick_marks)
+        ax.set_yticks(tick_marks)
+        ax.set_xticklabels(class_names)
+        ax.set_yticklabels(class_names)
 
-    thresh = cm.max() / 2.0
-    for i in range(cm.shape[0]):
-        for j in range(cm.shape[1]):
-            ax.text(
-                j,
-                i,
-                f"{cm[i, j]:.2f}" if normalize else f"{cm[i, j]}",
-                horizontalalignment="center",
-                color="white" if cm[i, j] > thresh else "black",
-            )
+        thresh = cm.max() / 2.0
+        for i in range(cm.shape[0]):
+            for j in range(cm.shape[1]):
+                if normalize:
+                    text = f"{cm[i, j]:.2f}"
+                else:
+                    count = int(cm[i, j])
+                    pct = cm_normalized[i, j]
+                    text = f"{count}\n({pct:.2f})"
+                ax.text(
+                    j,
+                    i,
+                    text,
+                    horizontalalignment="center",
+                    verticalalignment="center",
+                    color="white" if cm[i, j] > thresh else "black",
+                )
 
     ax.set_ylabel(ylabel)
     ax.set_xlabel(xlabel)
     ax.set_title(title)
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor")
+    plt.setp(ax.get_yticklabels(), rotation=0, ha="right")  # Rotate y-axis labels horizontally
 
     return ax
 
