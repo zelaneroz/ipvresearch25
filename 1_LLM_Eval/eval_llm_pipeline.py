@@ -76,6 +76,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import (
     accuracy_score,
+    confusion_matrix,
     f1_score,
     precision_recall_curve,
     precision_score,
@@ -84,7 +85,17 @@ from sklearn.metrics import (
     roc_curve,
 )
 
-__all__ = ["LLMEvalPipeline"]
+__all__ = [
+    "LLMEvalPipeline",
+    "compute_binary_metrics_detailed",
+    "compute_multitype_metrics_per_subgroup",
+    "plot_confusion_matrix",
+    "plot_roc_curve_binary",
+    "plot_precision_recall_curve_binary",
+    "plot_per_class_f1_bar_chart",
+    "append_binary_results_to_json",
+    "append_multitype_results_to_json",
+]
 
 MULTI_LABELS: Tuple[str, ...] = ("Physical", "Emotional", "Sexual")
 _SCORE_COLUMNS = (
@@ -817,3 +828,521 @@ class LLMEvalPipeline:
         metrics["roc_auc_macro"] = float(np.nanmean(list(per_class_auc.values())))
         metrics["roc_auc"] = _safe_auc(exact_match, confidence)
         return metrics
+
+
+# ============================================================================
+# Public evaluation functions for detailed metrics and visualizations
+# ============================================================================
+
+
+def compute_binary_metrics_detailed(
+    y_true: Union[np.ndarray, pd.Series, List[int]],
+    y_pred: Union[np.ndarray, pd.Series, List[int]],
+) -> Dict[str, Union[float, int]]:
+    """
+    Compute detailed binary classification metrics including confusion matrix components.
+
+    Parameters
+    ----------
+    y_true : array-like
+        Ground truth binary labels (0 or 1)
+    y_pred : array-like
+        Predicted binary labels (0 or 1)
+
+    Returns
+    -------
+    dict
+        Dictionary containing:
+        - accuracy: float
+        - precision: float
+        - recall: float
+        - f1: float
+        - true_positives: int
+        - false_positives: int
+        - true_negatives: int
+        - false_negatives: int
+    """
+    y_true = np.asarray(y_true, dtype=int)
+    y_pred = np.asarray(y_pred, dtype=int)
+
+    tn, fp, fn, tp = confusion_matrix(y_true, y_pred, labels=[0, 1]).ravel()
+
+    metrics = {
+        "accuracy": float(accuracy_score(y_true, y_pred)),
+        "precision": float(precision_score(y_true, y_pred, zero_division=0)),
+        "recall": float(recall_score(y_true, y_pred, zero_division=0)),
+        "f1": float(f1_score(y_true, y_pred, zero_division=0)),
+        "true_positives": int(tp),
+        "false_positives": int(fp),
+        "true_negatives": int(tn),
+        "false_negatives": int(fn),
+    }
+    return metrics
+
+
+def compute_multitype_metrics_per_subgroup(
+    df: pd.DataFrame,
+    y_true_cols: List[str],
+    y_pred_cols: List[str],
+    subgroup_col: Optional[str] = None,
+) -> Dict[str, Dict[str, Union[float, int]]]:
+    """
+    Compute multitype metrics per subgroup (or overall if subgroup_col is None).
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame containing true labels, predictions, and optionally subgroup column
+    y_true_cols : List[str]
+        Column names for true labels (e.g., ["Physical", "Emotional", "Sexual"])
+    y_pred_cols : List[str]
+        Column names for predicted labels (same order as y_true_cols)
+    subgroup_col : str, optional
+        Column name for subgrouping (e.g., "gender", "age_group"). If None, computes overall metrics.
+
+    Returns
+    -------
+    dict
+        Dictionary with keys being subgroup values (or "overall") and values being
+        dictionaries of metrics per class:
+        {
+            "subgroup_value": {
+                "class_name": {
+                    "accuracy": float,
+                    "precision": float,
+                    "recall": float,
+                    "f1": float,
+                    "true_positives": int,
+                    "false_positives": int,
+                    "true_negatives": int,
+                    "false_negatives": int,
+                }
+            }
+        }
+    """
+    results = {}
+
+    if subgroup_col is None or subgroup_col not in df.columns:
+        # Compute overall metrics
+        subgroup_values = ["overall"]
+        df_grouped = {None: df}
+    else:
+        subgroup_values = df[subgroup_col].unique()
+        df_grouped = {val: df[df[subgroup_col] == val] for val in subgroup_values}
+
+    for subgroup_val, df_subset in df_grouped.items():
+        key = str(subgroup_val) if subgroup_val is not None else "overall"
+        results[key] = {}
+
+        for true_col, pred_col in zip(y_true_cols, y_pred_cols):
+            if true_col not in df_subset.columns or pred_col not in df_subset.columns:
+                continue
+
+            y_true = df_subset[true_col].astype(int).values
+            y_pred = df_subset[pred_col].astype(int).values
+
+            class_metrics = compute_binary_metrics_detailed(y_true, y_pred)
+            results[key][true_col] = class_metrics
+
+    return results
+
+
+def plot_confusion_matrix(
+    y_true: Union[np.ndarray, pd.Series, List[int]],
+    y_pred: Union[np.ndarray, pd.Series, List[int]],
+    ax: Optional[plt.Axes] = None,
+    title: str = "Confusion Matrix",
+    xlabel: str = "Predicted",
+    ylabel: str = "Actual",
+    class_names: Optional[List[str]] = None,
+    normalize: bool = False,
+) -> plt.Axes:
+    """
+    Plot a confusion matrix.
+
+    Parameters
+    ----------
+    y_true : array-like
+        Ground truth labels
+    y_pred : array-like
+        Predicted labels
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on. If None, creates a new figure.
+    title : str
+        Plot title
+    xlabel : str
+        X-axis label
+    ylabel : str
+        Y-axis label
+    class_names : List[str], optional
+        Names for classes (e.g., ["NOT_IPV", "IPV"]). If None, uses indices.
+    normalize : bool
+        If True, normalize the confusion matrix to show percentages.
+
+    Returns
+    -------
+    matplotlib.axes.Axes
+        The axes object with the plot
+    """
+    y_true = np.asarray(y_true, dtype=int)
+    y_pred = np.asarray(y_pred, dtype=int)
+
+    cm = confusion_matrix(y_true, y_pred)
+    if normalize:
+        cm = cm.astype("float") / cm.sum(axis=1)[:, np.newaxis]
+
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(6, 5))
+
+    im = ax.imshow(cm, interpolation="nearest", cmap=plt.cm.Blues)
+    ax.figure.colorbar(im, ax=ax)
+
+    if class_names is None:
+        class_names = [str(i) for i in range(len(cm))]
+
+    tick_marks = np.arange(len(class_names))
+    ax.set_xticks(tick_marks)
+    ax.set_yticks(tick_marks)
+    ax.set_xticklabels(class_names)
+    ax.set_yticklabels(class_names)
+
+    thresh = cm.max() / 2.0
+    for i in range(cm.shape[0]):
+        for j in range(cm.shape[1]):
+            ax.text(
+                j,
+                i,
+                f"{cm[i, j]:.2f}" if normalize else f"{cm[i, j]}",
+                horizontalalignment="center",
+                color="white" if cm[i, j] > thresh else "black",
+            )
+
+    ax.set_ylabel(ylabel)
+    ax.set_xlabel(xlabel)
+    ax.set_title(title)
+    plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor")
+
+    return ax
+
+
+def plot_roc_curve_binary(
+    y_true: Union[np.ndarray, pd.Series, List[int]],
+    y_scores: Union[np.ndarray, pd.Series, List[float]],
+    ax: Optional[plt.Axes] = None,
+    title: str = "ROC Curve",
+    xlabel: str = "False Positive Rate",
+    ylabel: str = "True Positive Rate",
+    label: Optional[str] = None,
+) -> Tuple[plt.Axes, float]:
+    """
+    Plot ROC curve for binary classification.
+
+    Parameters
+    ----------
+    y_true : array-like
+        Ground truth binary labels (0 or 1)
+    y_scores : array-like
+        Prediction scores/probabilities for positive class
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on. If None, creates a new figure.
+    title : str
+        Plot title
+    xlabel : str
+        X-axis label
+    ylabel : str
+        Y-axis label
+    label : str, optional
+        Label for the curve (for legend)
+
+    Returns
+    -------
+    Tuple[matplotlib.axes.Axes, float]
+        The axes object and the AUC score
+    """
+    y_true = np.asarray(y_true, dtype=int)
+    y_scores = np.asarray(y_scores, dtype=float)
+
+    fpr, tpr, _ = roc_curve(y_true, y_scores)
+    auc_score = _safe_auc(y_true, y_scores)
+
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(7, 6))
+
+    curve_label = label if label else f"ROC (AUC = {auc_score:.3f})"
+    ax.plot(fpr, tpr, label=curve_label, linewidth=2)
+    ax.plot([0, 1], [0, 1], linestyle="--", color="gray", label="Random")
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    ax.set_title(title)
+    ax.legend()
+    ax.grid(True, alpha=0.3)
+
+    return ax, auc_score
+
+
+def plot_precision_recall_curve_binary(
+    y_true: Union[np.ndarray, pd.Series, List[int]],
+    y_scores: Union[np.ndarray, pd.Series, List[float]],
+    ax: Optional[plt.Axes] = None,
+    title: str = "Precision-Recall Curve",
+    xlabel: str = "Recall",
+    ylabel: str = "Precision",
+    label: Optional[str] = None,
+) -> Tuple[plt.Axes, float]:
+    """
+    Plot Precision-Recall curve for binary classification.
+
+    Parameters
+    ----------
+    y_true : array-like
+        Ground truth binary labels (0 or 1)
+    y_scores : array-like
+        Prediction scores/probabilities for positive class
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on. If None, creates a new figure.
+    title : str
+        Plot title
+    xlabel : str
+        X-axis label
+    ylabel : str
+        Y-axis label
+    label : str, optional
+        Label for the curve (for legend)
+
+    Returns
+    -------
+    Tuple[matplotlib.axes.Axes, float]
+        The axes object and the average precision score
+    """
+    from sklearn.metrics import average_precision_score
+
+    y_true = np.asarray(y_true, dtype=int)
+    y_scores = np.asarray(y_scores, dtype=float)
+
+    precision, recall, _ = precision_recall_curve(y_true, y_scores)
+    avg_precision = average_precision_score(y_true, y_scores)
+
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(7, 6))
+
+    curve_label = label if label else f"PR (AP = {avg_precision:.3f})"
+    ax.plot(recall, precision, label=curve_label, linewidth=2)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    ax.set_title(title)
+    ax.legend()
+    ax.grid(True, alpha=0.3)
+
+    return ax, avg_precision
+
+
+def plot_per_class_f1_bar_chart(
+    metrics_per_class: Dict[str, Dict[str, float]],
+    ax: Optional[plt.Axes] = None,
+    title: str = "Per-Class F1 Scores",
+    xlabel: str = "Class",
+    ylabel: str = "F1 Score",
+    colors: Optional[List[str]] = None,
+) -> plt.Axes:
+    """
+    Plot a bar chart of F1 scores per class for multitype classification.
+
+    Parameters
+    ----------
+    metrics_per_class : dict
+        Dictionary mapping class names to metric dictionaries:
+        {"class_name": {"f1": float, ...}, ...}
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on. If None, creates a new figure.
+    title : str
+        Plot title
+    xlabel : str
+        X-axis label
+    ylabel : str
+        Y-axis label
+    colors : List[str], optional
+        Colors for bars. If None, uses default colors.
+
+    Returns
+    -------
+    matplotlib.axes.Axes
+        The axes object with the plot
+    """
+    classes = list(metrics_per_class.keys())
+    f1_scores = [metrics_per_class[cls].get("f1", 0.0) for cls in classes]
+
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(8, 5))
+
+    if colors is None:
+        colors = plt.cm.viridis(np.linspace(0, 1, len(classes)))
+
+    bars = ax.bar(classes, f1_scores, color=colors)
+    ax.set_ylabel(ylabel)
+    ax.set_xlabel(xlabel)
+    ax.set_title(title)
+    ax.set_ylim(0, 1.0)
+
+    # Add value labels on bars
+    for bar, score in zip(bars, f1_scores):
+        height = bar.get_height()
+        ax.text(
+            bar.get_x() + bar.get_width() / 2.0,
+            height,
+            f"{score:.3f}",
+            ha="center",
+            va="bottom",
+        )
+
+    plt.setp(ax.get_xticklabels(), rotation=45, ha="right")
+    ax.grid(True, alpha=0.3, axis="y")
+
+    return ax
+
+
+def append_binary_results_to_json(
+    json_path: Union[str, Path],
+    model_name: str,
+    prompt_version: str,
+    metrics: Dict[str, Union[float, int]],
+    date_tested: Optional[str] = None,
+    notes: str = "",
+) -> None:
+    """
+    Append binary evaluation results to a JSON file.
+
+    Parameters
+    ----------
+    json_path : str or Path
+        Path to the JSON file (will be created if doesn't exist)
+    model_name : str
+        Name of the model
+    prompt_version : str
+        Version/name of the prompt used
+    metrics : dict
+        Dictionary of metrics (should include accuracy, precision, recall, f1, etc.)
+    date_tested : str, optional
+        Date in YYYY-MM-DD format. If None, uses today's date.
+    notes : str
+        Optional notes about the evaluation
+    """
+    from datetime import datetime
+
+    json_path = Path(json_path)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if json_path.exists():
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    else:
+        data = []
+
+    if date_tested is None:
+        date_tested = datetime.now().strftime("%Y-%m-%d")
+
+    entry = {
+        "date_tested": date_tested,
+        "model": model_name,
+        "prompt_version": prompt_version,
+        "metrics": {
+            "accuracy": float(metrics.get("accuracy", 0.0)),
+            "precision": float(metrics.get("precision", 0.0)),
+            "recall": float(metrics.get("recall", 0.0)),
+            "f1": float(metrics.get("f1", 0.0)),
+            "true_positives": int(metrics.get("true_positives", 0)),
+            "false_positives": int(metrics.get("false_positives", 0)),
+            "true_negatives": int(metrics.get("true_negatives", 0)),
+            "false_negatives": int(metrics.get("false_negatives", 0)),
+        },
+        "notes": notes,
+    }
+
+    data.append(entry)
+
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def append_multitype_results_to_json(
+    json_path: Union[str, Path],
+    model_name: str,
+    prompt_version: str,
+    metrics_per_subgroup: Dict[str, Dict[str, Dict[str, Union[float, int]]]],
+    date_tested: Optional[str] = None,
+    notes: str = "",
+) -> None:
+    """
+    Append multitype evaluation results to a JSON file.
+
+    Parameters
+    ----------
+    json_path : str or Path
+        Path to the JSON file (will be created if doesn't exist)
+    model_name : str
+        Name of the model
+    prompt_version : str
+        Version/name of the prompt used
+    metrics_per_subgroup : dict
+        Dictionary with structure:
+        {
+            "subgroup_value": {
+                "class_name": {
+                    "accuracy": float,
+                    "precision": float,
+                    "recall": float,
+                    "f1": float,
+                    "true_positives": int,
+                    "false_positives": int,
+                    "true_negatives": int,
+                    "false_negatives": int,
+                }
+            }
+        }
+    date_tested : str, optional
+        Date in YYYY-MM-DD format. If None, uses today's date.
+    notes : str
+        Optional notes about the evaluation
+    """
+    from datetime import datetime
+
+    json_path = Path(json_path)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if json_path.exists():
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    else:
+        data = []
+
+    if date_tested is None:
+        date_tested = datetime.now().strftime("%Y-%m-%d")
+
+    # Convert metrics to the expected format
+    metrics_per_class = {}
+    for subgroup, classes in metrics_per_subgroup.items():
+        if subgroup not in metrics_per_class:
+            metrics_per_class[subgroup] = {}
+        for class_name, class_metrics in classes.items():
+            metrics_per_class[subgroup][class_name.lower()] = {
+                "accuracy": float(class_metrics.get("accuracy", 0.0)),
+                "precision": float(class_metrics.get("precision", 0.0)),
+                "recall": float(class_metrics.get("recall", 0.0)),
+                "f1": float(class_metrics.get("f1", 0.0)),
+                "true_positives": int(class_metrics.get("true_positives", 0)),
+                "false_positives": int(class_metrics.get("false_positives", 0)),
+                "true_negatives": int(class_metrics.get("true_negatives", 0)),
+                "false_negatives": int(class_metrics.get("false_negatives", 0)),
+            }
+
+    entry = {
+        "date_tested": date_tested,
+        "model": model_name,
+        "prompt_version": prompt_version,
+        "metrics_per_subgroup": metrics_per_class,
+        "notes": notes,
+    }
+
+    data.append(entry)
+
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
