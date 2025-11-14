@@ -58,5 +58,65 @@
     },
     "notes": "Evaluation of zeroshot prompt",
     "date_tested": "2025-11-13 23:22:31"
+  },
+  {
+    "model_name": "ChatGPT 5.1",
+    "prompt_version": "cot",
+    "metrics": {
+      "Accuracy": 0.5841423948220065,
+      "F1": 0.34936708860759497,
+      "ROC_AUC": 0.6058282208588956,
+      "PR_AUC": 0.6275140468957849
+    },
+    "notes": "Evaluation of cot prompt",
+    "date_tested": "2025-11-14 00:43:26"
+  },
+  {
+    "model_name": "ChatGPT 5.1",
+    "prompt_version": "fewshot",
+    "metrics": {
+      "Accuracy": 0.6456310679611651,
+      "F1": 0.5249457700650759,
+      "ROC_AUC": 0.6616102193461636,
+      "PR_AUC": 0.6643896025395817
+    },
+    "notes": "Evaluation of fewshot prompt",
+    "date_tested": "2025-11-14 00:43:27"
+  },
+  {
+    "model_name": "ChatGPT 5.1",
+    "prompt_version": "meta",
+    "metrics": {
+      "Accuracy": 0.6019417475728155,
+      "F1": 0.44843049327354256,
+      "ROC_AUC": 0.6191276577863686,
+      "PR_AUC": 0.6213195147616495
+    },
+    "notes": "Evaluation of meta prompt",
+    "date_tested": "2025-11-14 00:43:27"
+  },
+  {
+    "model_name": "ChatGPT 5.1",
+    "prompt_version": "self_consistency",
+    "metrics": {
+      "Accuracy": 0.6407766990291263,
+      "F1": 0.513157894736842,
+      "ROC_AUC": 0.6571875787881335,
+      "PR_AUC": 0.6611938372346973
+    },
+    "notes": "Evaluation of self_consistency prompt",
+    "date_tested": "2025-11-14 00:43:27"
+  },
+  {
+    "model_name": "ChatGPT 5.1",
+    "prompt_version": "zeroshot",
+    "metrics": {
+      "Accuracy": 0.6456310679611651,
+      "F1": 0.5249457700650759,
+      "ROC_AUC": 0.6616102193461636,
+      "PR_AUC": 0.6643896025395817
+    },
+    "notes": "Evaluation of zeroshot prompt",
+    "date_tested": "2025-11-14 00:43:28"
   }
 ]
