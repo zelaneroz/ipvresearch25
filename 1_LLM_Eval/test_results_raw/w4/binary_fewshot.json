@@ -1,0 +1,3710 @@
+[
+    {
+        "id": 0,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 1,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 2,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 3,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 4,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 5,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 6,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 7,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 8,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 9,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 10,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 11,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 12,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 13,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 14,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 15,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 16,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 17,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 18,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 19,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 20,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 21,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 22,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 23,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 24,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is repeatedly engaging in arguments (\"picks fights\") and causing emotional distress to the other by being sensitive to certain topics. This aligns with the definition of Intimate Partner Violence, which includes emotional abuse. Therefore, the classification is IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 25,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a pattern of behavior that can be indicative of emotional abuse, which is a form of Intimate Partner Violence (IPV). The repeated use of negative descriptors like \"angry,\" \"snappy,\" and \"mean\" suggests a controlling and hostile dynamic in the relationship. Therefore, it aligns with the definition provided for IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 26,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 27,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 28,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 29,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The sentence \"The lies are what killed me.\" does not describe a situation of physical, emotional, or sexual harm or control by one partner over another. It appears to be a statement about personal feelings regarding lies, without any context suggesting it involves IPV. Therefore, it is classified as \"NOT_IPV\". <json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 30,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 31,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 32,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where physical altercations (\"fights\") are occurring in public spaces (\"spilled out onto the street\", \"in our place of work in the stairway\"), which aligns with the definition of Intimate Partner Violence (IPV) as it involves harmful behavior in a relationship context. Therefore, the classification is IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 33,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 34,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 35,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 36,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where fighting is occurring in multiple locations, which could indicate controlling behavior or physical altercations, fitting the definition of Intimate Partner Violence (IPV). Therefore, the classification is \"IPV\". <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 37,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 38,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 39,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 40,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence mentions that there have been instances of physical actions (\"things have only gotten physical twice this year\") and serious fights, which aligns with the definition of Intimate Partner Violence (IPV) provided. Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 41,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 42,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 43,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 44,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is using conditional statements to control the other, which aligns with the definition of Intimate Partner Violence. Therefore, the classification is IPV. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 45,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 46,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 47,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 48,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 49,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is using manipulation and threats to control the other, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, the classification is IPV. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 50,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 51,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a form of emotional abuse through \"dirty talks\" and repeated disregard for the partner's request, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, the classification is IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 52,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 53,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes emotional abuse through manipulation and belittlement, which falls under the category of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 54,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 55,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes emotional harm, which can be a form of Intimate Partner Violence (IPV). Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 56,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 57,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 58,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 59,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 60,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 61,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 62,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where the partner is controlling the other's ability to communicate, which falls under the category of control, a form of IPV. Therefore, the classification is {\"label\": \"IPV\"}. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 63,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes an instance where one partner is accusing the other of something without clear evidence (\"giving off a weird vibe\"), which can be seen as a form of emotional abuse. Additionally, the partner is questioning the other's actions and punctuality, which could escalate into further control or manipulation. Therefore, it fits the definition of Intimate Partner Violence (IPV). <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 64,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is implying that the other is withholding information and not being truthful about their whereabouts. This can be seen as a form of emotional control and manipulation, which falls under the definition of Intimate Partner Violence (IPV). Therefore, the correct classification is {\"label\": \"IPV\"}. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 65,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 66,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is pushing for intimacy despite the other partner's clear refusal, which can be seen as a form of control and pressure, indicative of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 67,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where the partner is losing his temper quickly and is still drinking. While the initial part about having the baby being okay might suggest a positive start, the latter part indicates controlling behavior and substance abuse, which can be indicative of Intimate Partner Violence. Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 68,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes controlling behaviors such as lying, hiding money, and lying about whereabouts, which can be indicative of an attempt to control the partner, a common form of Intimate Partner Violence. Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 69,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 70,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 71,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is threatening the other by saying they will lie to manipulate their beliefs, which can be considered a form of emotional abuse, thus falling under IPV. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 72,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 73,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The given sentence does not describe any form of physical, emotional, or sexual abuse. It mentions an addiction to pornography and a bad temper, which do not necessarily constitute IPV. Therefore, it is classified as NOT_IPV. <json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 74,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 75,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner dismisses the other's feelings and doubts, which can be considered emotionally abusive behavior. Therefore, it fits the definition of IPV. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 76,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 77,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 78,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is blaming the other for their neglectful behavior, which can be a form of emotional abuse, a component of IPV. Therefore, it fits the definition provided. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 79,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 80,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 81,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 82,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 83,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 84,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 85,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 86,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 87,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 88,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 89,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 90,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 91,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes multiple forms of abuse, including emotional and verbal abuse, which align with the definition of Intimate Partner Violence (IPV). Therefore, the correct classification is {\"label\": \"IPV\"}. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 92,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 93,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 94,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 95,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where shouting is used in an aggressive manner, which can be considered as part of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 96,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 97,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 98,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 99,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 100,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 101,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 102,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 103,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 104,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 105,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 106,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 107,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"He’d take my fingers out of my ears to say it louder.\" implies a form of control and manipulation, which can be indicative of Intimate Partner Violence (IPV). This behavior suggests that the partner is trying to dominate or exert control over the other person's actions, which aligns with the definition provided. Therefore, the classification is IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 108,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 109,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"I was fucking terrified.\" implies a sense of fear and danger, which could be indicative of an abusive situation where the individual feels threatened or controlled by their partner. Therefore, it aligns more closely with the definition of IPV. However, without additional context, it's important to note that fear alone does not definitively classify a situation as IPV; it suggests a concerning dynamic that may warrant further investigation. Given the available information, we lean towards classifying it as IPV due to the implied fear and potential for control. <json>{\"label\": \"IPV\""
+    },
+    {
+        "id": 110,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 111,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 112,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 113,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 114,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 115,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 116,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 117,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 118,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 119,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 120,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is insulting the other by calling them overweight, which is an example of emotional abuse and thus falls under the category of Intimate Partner Violence (IPV). Therefore, the correct classification is {\"label\": \"IPV\"}. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 121,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 122,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a pattern of emotional unpredictability where the speaker feels unsafe due to the other person's reactions. This aligns with the definition of Intimate Partner Violence as it involves emotional control and harm through unpredictable outbursts. Therefore, the classification is IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 123,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 124,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"I feel trapped, and like I don't want to be there.\" suggests a feeling of being controlled or restricted by a partner, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 125,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 126,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 127,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a pattern of behavior where one partner (the man) is repeatedly bringing up past relationships in a way that diminishes the current relationship and the current partner's worth. This can be considered emotionally abusive, which falls under the category of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 128,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 129,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 130,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 131,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 132,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 133,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 134,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 135,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 136,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 137,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes behaviors that can be considered forms of emotional abuse, which falls under the category of Intimate Partner Violence (IPV). The partner is consistently stating negative attributes and expressing a lack of care and affection in a detailed manner, while rarely providing positive feedback or details about what they do like about the other person. This kind of behavior can lead to feelings of worthlessness and low self-esteem, which are common in IPV situations. </json> <json>\n{\"label\": \"IPV\"}\n</json"
+    },
+    {
+        "id": 138,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 139,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 140,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 141,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 142,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 143,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 144,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 145,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 146,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 147,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 148,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The given sentence does not describe a pattern of behavior where one partner is harming or controlling the other. It simply states that the person becomes consistently upset, angry, and mad, which could be due to various reasons unrelated to IPV. Therefore, it is classified as NOT_IPV. <json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 149,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 150,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 151,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 152,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 153,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 154,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 155,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 156,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 157,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 158,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 159,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 160,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 161,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes actions that involve physical harm (\"throw my water bottle at him which made his bed wet\") and threats of further harm (\"he threatened to smash my phone and throw it down the toilet\"), which align with the definition of Intimate Partner Violence (IPV). Additionally, the response to these actions (\"scared me\") indicates emotional distress, further supporting the classification of IPV. Therefore, the correct label is \"IPV\". <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 162,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 163,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 164,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 165,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 166,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where the speaker was trying to push away and avoid someone, indicating some form of control or manipulation, which aligns with the definition of Intimate Partner Violence (IPV). The phrase \"which was useless\" suggests that the speaker feels they cannot escape or control the situation, further supporting the classification as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 167,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 168,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 169,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 170,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 171,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 172,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"It felt as though my windpipe had stuck together\" could indicate a situation where someone is experiencing physical harm or feeling like they cannot breathe, which can be a sign of Intimate Partner Violence. Therefore, it is classified as IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 173,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is causing fear and distress to the other by holding them for an unusually long time, which is a form of physical and emotional abuse. The partner's subsequent apology and crying do not negate the initial harmful behavior. Therefore, it fits the definition of IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 174,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 175,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The sentence \"She even tried to hide it from me!\" does not provide enough context to determine if it describes Intimate Partner Violence (IPV). It could be referring to a situation where someone is trying to keep information private for various reasons, which may or may not involve IPV. Therefore, without additional context, it cannot be classified as IPV. Hence, the classification is NOT_IPV. <json>{\"label\": \"NOT_IPV\"}</json>"
+    },
+    {
+        "id": 176,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 177,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 178,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 179,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 180,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 181,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 182,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 183,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 184,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 185,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 186,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 187,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 188,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is continuing to fight despite the other partner's attempt to defer the conversation, which can be indicative of controlling behavior and thus falls under the category of Intimate Partner Violence (IPV). <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 189,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 190,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a pattern of increasing emotional distress and loss of control, which can be indicative of emotional abuse, a form of Intimate Partner Violence (IPV). Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 191,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 192,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 193,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 194,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 195,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner gets angry when the kitchen is messy and implies that the other partner is responsible for cleaning it. This behavior can be seen as controlling and potentially abusive, fitting the definition of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 196,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 197,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 198,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 199,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 200,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 201,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner (the speaker) has not engaged in physical violence, but the other partner has. This fits the definition of Intimate Partner Violence, as it involves one partner harming another physically. Therefore, the classification is IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 202,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 203,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes multiple instances of emotional abuse and control, which are forms of Intimate Partner Violence (IPV). The partner is criticizing the individual's appearance, making demands about her body, and laughing at her concerns, indicating a pattern of controlling behavior and emotional manipulation. Therefore, the classification is \"IPV\". </json>"
+    },
+    {
+        "id": 204,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The given sentence does not describe any form of Intimate Partner Violence. It seems to be discussing a situation where one partner encourages a sexual encounter despite external factors, which does not fit the definition of IPV provided. Therefore, the classification is \"NOT_IPV\". <json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 205,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The sentence does not describe any form of physical, emotional, or sexual harm or control by one partner over another. It simply describes a neutral observation of a man being on the phone with someone in his driveway. Therefore, it is classified as \"NOT_IPV\". <json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 206,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The given sentence does not describe any form of physical, emotional, or sexual abuse or control by one partner over another. It describes a situation where someone checked their partner's messages without permission, which could be seen as a breach of trust, but it does not fit the definition of Intimate Partner Violence provided. Therefore, it is classified as NOT_IPV. <json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 207,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes behavior where one partner is attempting to justify their actions, which could indicate controlling behavior. This aligns with the definition of IPV as it involves emotional control and manipulation. Therefore, the classification is IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 208,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence indicates that the speaker is avoiding friends due to an unstable marriage, which suggests a controlling environment. This could be indicative of emotional control and manipulation, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 209,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 210,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 211,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes emotional abuse through constant negative messaging and threats of self-harm, which can be considered a form of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 212,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json> The sentence describes a situation where the speaker feels they were made to feel worthless and undervalued, which aligns with emotional abuse, a form of Intimate Partner Violence (IPV). The statement suggests that the partner's actions were not genuinely helpful but rather manipulative, leading to the speaker's negative self-perception. Therefore, it fits the definition of IPV. </json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 213,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 214,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner (the woman) demands things to go her way, and if they don't, she starts crying. This behavior can be seen as controlling and emotionally abusive, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, the classification is \"IPV\". <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 215,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 216,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 217,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 218,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 219,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " Based on the given definition and examples, the sentence \"It hurt so badly.\" does not provide enough context to determine if it is describing Intimate Partner Violence (IPV). It could be referring to physical pain, emotional distress, or any other form of hurt. Without additional context indicating a pattern of behavior or specific actions by a partner, we cannot definitively classify this sentence as IPV.\n\nTherefore, the appropriate classification for this sentence is:\n\n{\"label\": \"NOT_IPV\"} <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 220,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 221,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 222,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 223,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes emotional abuse through the use of insults and the mention of a harmful past experience, which can be considered a form of control and harm in an intimate relationship. Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 224,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is not fully present during sexual activity, which could indicate a lack of intimacy and respect in the relationship. This can be a form of emotional abuse, a component of IPV. Therefore, the classification is IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 225,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 226,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 227,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 228,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 229,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 230,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 231,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 232,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 233,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " Based on the given definition of IPV, the sentence \"The lies and manipulation\" does not provide enough context to definitively classify it as IPV. While lies and manipulation can be part of controlling behavior in a relationship, they alone do not necessarily describe physical, emotional, or sexual harm or control. Therefore, we cannot conclusively label this sentence as IPV without more context.\n\n{\"label\": \"NOT_IPV\"}"
+    },
+    {
+        "id": 234,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 235,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 236,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 237,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"It's always my fault in fights. I'm always the one who has to apologize.\" suggests a pattern of behavior where one partner consistently takes responsibility for conflicts, which can be indicative of control and manipulation. This aligns with the definition of Intimate Partner Violence (IPV), as it implies that one partner is being made to feel responsible and submissive in arguments, potentially leading to emotional harm. Therefore, the classification is {\"label\": \"IPV\"}. <json> {\"label\": \""
+    },
+    {
+        "id": 238,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 239,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 240,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 241,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"I felt trapped\" can indicate a sense of being controlled or restricted by a partner, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, it is classified as IPV. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 242,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 243,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"This completely crushed me that he would say that.\" implies emotional harm caused by a partner's actions, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 244,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence suggests a feeling of betrayal and implies that one partner is withholding information (the account) from the other, which could be a form of control or manipulation, indicative of IPV. However, without more context, it's also possible that it describes a situation where there is a lack of trust or communication issues, which might not necessarily constitute IPV. Given the limited information, the most fitting classification leans towards IPV due to the implication of withholding information and the feeling of betrayal. Therefore, the label is \"IPV\". <json>\n{\"label\": \"IPV\"}\n</"
+    },
+    {
+        "id": 245,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 246,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 247,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 248,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a scenario where one partner is sharing private information about the other without consent, which can be a form of emotional abuse and control, fitting the definition of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 249,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 250,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 251,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is using photos of other women to deceive men, which can be a form of emotional abuse and manipulation, thus falling under the category of Intimate Partner Violence (IPV). <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 252,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 253,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"I mean Dave cheated\" implies a form of betrayal and infidelity, which can be considered a form of emotional abuse or control within an intimate relationship. Therefore, it fits the definition of Intimate Partner Violence (IPV). <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 254,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes behaviors such as lying, keeping secrets, and acting in ways that are not transparent to the other partner, which can be indicative of controlling behavior in a relationship, thus falling under the category of Intimate Partner Violence (IPV). <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 255,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a pattern of behavior where the wife ignores the speaker's input repeatedly, which can be seen as controlling behavior. Additionally, it mentions that she occasionally engages in verbal abuse, which falls under emotional abuse, a form of IPV. Therefore, the classification is IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 256,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 257,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes behavior where one partner escalates conflicts, which can be a form of emotional abuse, a component of Intimate Partner Violence (IPV). Therefore, it is classified as IPV. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 258,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 259,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 260,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 261,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 262,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 263,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is making threats of self-harm, which can be a form of emotional abuse and control, fitting the definition of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. <json>\n</json>"
+    },
+    {
+        "id": 264,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 265,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 266,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where someone is being subjected to emotional blackmail, which can be a form of emotional abuse, a component of IPV. Therefore, it fits the definition provided. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 267,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner (she) is expressing anger towards the other partner without any apparent reason, which can be indicative of controlling behavior or emotional abuse, both forms of IPV. Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 268,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes an instance where the partner's reaction to being asked about a personal and intimate matter (\"ceremonially ‘take me’\") was a fit of rage, which can be considered a form of emotional abuse, a component of IPV. Therefore, it fits the definition provided. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 269,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 270,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where the speaker was crying in fear or distress, which could be indicative of emotional abuse or a controlling environment. Therefore, it fits the definition of IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 271,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 272,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 273,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 274,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 275,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 276,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 277,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner is yelling at the other, which can be considered a form of emotional abuse, a component of IPV. Therefore, the classification is IPV. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 278,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 279,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where the person is unable to provide support and intervene in conflicts involving her son and husband, which could indicate control and harm within an intimate relationship. Therefore, it aligns with the definition of Intimate Partner Violence (IPV). <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 280,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where the husband interprets a request for his son to give the child some space as disrespectful and undermining his authority. This indicates a pattern of controlling behavior and potential emotional abuse, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, the classification is \"IPV\". <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 281,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 282,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 283,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 284,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 285,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 286,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 287,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 288,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 289,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 290,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 291,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 292,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 293,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 294,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"The problem is sometimes he explodes\" suggests that the partner becomes extremely angry or violent in an explosive manner, which can be a form of Intimate Partner Violence, specifically emotional abuse. Therefore, it is classified as IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 295,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 296,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 297,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where a parent (likely the partner in an intimate relationship) is pushing their children to the point of them getting scared and hurt, even though there are no visible bruises. This behavior can be considered a form of emotional and psychological abuse, which falls under the category of Intimate Partner Violence (IPV). Therefore, the classification is \"IPV\". <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 298,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes an instance of physical harm towards a child, which is a form of violence, and also implies emotional distress due to the context of a fight between partners. Therefore, it fits the definition of IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 299,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where arguments are becoming very intense, with the level of anger reaching a point where children can sense the tension. This indicates potential emotional abuse, which falls under the category of Intimate Partner Violence (IPV). Therefore, the classification is {\"label\": \"IPV\"}. However, it's important to note that without more context, we cannot definitively conclude physical violence, but the description of severe tension during arguments suggests a form of IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 300,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 301,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 302,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 303,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where physical harm has been inflicted upon someone (likely by an intimate partner), which aligns with the definition of Intimate Partner Violence (IPV). The mention of severe bleeding, swelling, and potential bruising indicates physical violence, and the emotional distress expressed by the speaker further supports this classification. Therefore, the correct label is \"IPV\". <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 304,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 305,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 306,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 307,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 308,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 309,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence indicates that the speaker feels insecure due to their partner's actions or words, which could be a form of emotional abuse. Therefore, it is classified as IPV. <json> {\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 310,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 311,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where the partner's behavior of being nice to someone else feels like a betrayal, which can be considered emotional abuse, a form of Intimate Partner Violence (IPV). Therefore, the classification is IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 312,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 313,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 314,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a pattern of behavior where one partner (she) withdraws during arguments and does not share the bed, which can be indicative of control and manipulation, key elements in Intimate Partner Violence. Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 315,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 316,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " </json>\n{\"label\": \"IPV\"} </json>"
+    },
+    {
+        "id": 317,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence \"I will say its not true and then get really angry\" suggests a pattern of behavior where anger is triggered by disagreement or perceived falsehoods. This can be indicative of controlling behavior, which is a form of Intimate Partner Violence (IPV). Therefore, it is classified as IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 318,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 319,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 320,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 321,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence indicates that the speaker is seeking help frequently, but the other person is instead trying to antagonize them, which suggests a pattern of behavior where one partner is controlling and undermining the other, fitting the definition of Intimate Partner Violence (IPV). <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 322,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 323,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 324,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 325,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 326,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 327,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 328,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 329,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes instances where one partner responds with anger and demeaning comments to what the other considers mild annoyances, which aligns with the definition of Intimate Partner Violence, specifically emotional abuse. Additionally, the partner's stonewalling behavior can be seen as a form of emotional manipulation and control. Therefore, it fits the criteria for IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 330,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 331,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 332,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 333,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 334,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 335,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence indicates that there is an underlying issue where one partner might dismiss or invalidate the other's concerns, which can be a form of emotional abuse, a component of IPV. Therefore, it should be classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 336,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 337,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes an instance where one partner is being dismissive and verbally abusive (\"shut up\"), and the other partner is reacting with anger (\"threw her keys to the ground\"). These behaviors align with the definition of Intimate Partner Violence provided. Therefore, the classification is IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 338,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 339,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 340,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 341,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 342,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 343,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 344,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 345,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 346,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 347,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 348,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 349,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 350,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 351,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 352,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 353,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 354,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 355,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 356,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 357,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 358,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 359,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 360,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 361,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 362,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 363,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " {\"label\": \"NOT_IPV\"}"
+    },
+    {
+        "id": 364,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where someone is threatening to cause serious harm (\"dismemberment\" or \"poisoning\") to others as a result of their actions, which aligns with the definition of Intimate Partner Violence (IPV). Therefore, the classification is \"IPV\". </json>"
+    },
+    {
+        "id": 365,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 366,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 367,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 368,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 369,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 370,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 371,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 372,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 373,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 374,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 375,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The given sentence describes controlling behavior, which is a form of Intimate Partner Violence (IPV). The rules imposed by the partner are intrusive and limit the individual's autonomy and freedom, indicating an attempt to control their life choices and actions. Therefore, it fits the definition of IPV. <json>{\"label\": \"IPV\"}</json>"
+    },
+    {
+        "id": 376,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 377,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 378,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 379,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 380,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 381,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 382,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 383,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 384,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 385,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 386,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 387,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 388,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 389,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 390,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence suggests a controlling behavior where one partner is dismissing the other's concerns or past experiences in the relationship, which can be indicative of IPV. However, it is not explicitly clear without more context. Given the limited information, it leans towards IPV due to the dismissive and potentially controlling nature of the statement. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 391,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 392,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 393,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 394,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 395,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 396,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 397,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 398,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 399,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " {\"label\": \"NOT_IPV\"}"
+    },
+    {
+        "id": 400,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 401,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 402,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 403,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 404,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 405,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 406,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 407,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 408,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 409,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " Based on the given definition and examples, the sentence \"A little dramatic?\" does not describe any form of Intimate Partner Violence (IPV). It is a vague statement that could be used in many contexts and does not indicate any physical, emotional, or sexual harm or control.\n\n<json>{\"label\": \"NOT_IPV\"}</json>"
+    },
+    {
+        "id": 410,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 411,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 412,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 413,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 414,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 415,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 416,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 417,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 418,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 419,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 420,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 421,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 422,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 423,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 424,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a form of emotional abuse where someone is being insulted and degraded (\"calling them sexless virgins is an easy way to show them their low value and status\"). This aligns with the definition provided for IPV, which includes emotional abuse. Therefore, it should be classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 425,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 426,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 427,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 428,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 429,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 430,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 431,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 432,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 433,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 434,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 435,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 436,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 437,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 438,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 439,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 440,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 441,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 442,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 443,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 444,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 445,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 446,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 447,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 448,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 449,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 450,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 451,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 452,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence suggests a controlling and disrespectful behavior, which could indicate an aspect of IPV. The use of \"mam\" in a commanding tone might imply a power imbalance and disrespect, indicative of controlling behavior. However, without more context, it's important to note that this could also be interpreted as a form of harassment rather than intimate partner violence. Given the limited information, we lean towards IPV due to the controlling nature implied. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 453,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 454,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 455,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 456,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 457,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 458,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 459,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 460,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 461,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 462,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " {\"label\": \"NOT_IPV\"}"
+    },
+    {
+        "id": 463,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 464,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 465,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 466,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 467,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 468,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 469,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 470,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 471,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 472,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 473,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 474,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 475,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 476,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 477,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 478,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 479,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 480,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 481,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 482,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 483,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 484,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 485,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 486,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 487,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 488,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 489,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 490,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 491,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 492,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 493,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 494,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 495,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 496,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 497,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 498,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 499,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 500,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 501,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 502,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 503,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 504,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 505,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 506,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 507,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 508,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 509,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 510,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 511,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 512,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 513,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 514,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 515,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 516,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " {\"label\": \"NOT_IPV\"}"
+    },
+    {
+        "id": 517,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 518,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 519,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 520,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 521,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " {\"label\": \"NOT_IPV\"}"
+    },
+    {
+        "id": 522,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 523,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 524,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 525,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 526,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 527,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 528,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 529,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 530,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 531,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 532,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 533,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 534,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 535,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 536,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 537,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 538,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 539,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 540,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 541,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 542,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 543,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The given sentence does not describe any form of violence or control. It seems to be a metaphorical statement about the frequency of sexual activity between partners before something changed. Therefore, it does not fit the definition of IPV. <json>{\"label\": \"NOT_IPV\"}</json> is the appropriate classification."
+    },
+    {
+        "id": 544,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 545,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 546,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 547,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 548,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 549,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 550,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 551,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 552,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 553,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 554,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 555,
+        "prompt_type": "fewshot",
+        "extracted_label": "IPV",
+        "raw_response": " <json>\n{\"label\": \"IPV\"}\n</json> The sentence describes a situation where one partner has had multiple sexual relationships while the other has not, which can be indicative of control and manipulation, key elements in Intimate Partner Violence. Therefore, it is classified as IPV. <json>\n{\"label\": \"IPV\"}\n</json>"
+    },
+    {
+        "id": 556,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 557,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 558,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 559,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 560,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 561,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 562,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 563,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 564,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 565,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 566,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 567,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 568,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 569,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 570,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 571,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 572,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 573,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 574,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 575,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " Based on the provided definition and examples, the sentence \"What do I do here?\" does not describe a situation of Intimate Partner Violence (IPV). It is a question seeking advice or guidance in an unspecified context.\n\nTherefore, the classification is:\n\n{\"label\": \"NOT_IPV\"}"
+    },
+    {
+        "id": 576,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 577,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 578,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 579,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 580,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 581,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 582,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 583,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 584,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json> The given sentence does not describe any form of physical, emotional, or sexual harm or control by one partner over another. It simply describes a physical sensation of feeling heated from the neck to the head, which could be due to various reasons such as stress, anxiety, or other non-violent circumstances. Therefore, it is classified as \"NOT_IPV\". <json> {\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 585,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 586,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 587,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 588,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 589,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 590,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 591,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 592,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 593,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 594,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 595,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 596,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 597,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 598,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 599,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 600,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 601,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 602,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 603,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 604,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 605,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 606,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 607,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 608,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 609,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 610,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 611,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 612,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 613,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 614,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 615,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    },
+    {
+        "id": 616,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " </json>\n{\"label\": \"NOT_IPV\"} </json>"
+    },
+    {
+        "id": 617,
+        "prompt_type": "fewshot",
+        "extracted_label": "NOT_IPV",
+        "raw_response": " <json>\n{\"label\": \"NOT_IPV\"}\n</json>"
+    }
+]

@@ -1,39 +1,62 @@
 [
   {
-    "date_tested": "2025-02-09",
-    "model": "qwen2.5-7b",
-    "prompt_version": "v1",
+    "model_name": "qwen2.5-7b",
+    "prompt_version": "cot",
     "metrics": {
-      "accuracy": 0.82,
-      "precision_ipv": 0.89,
-      "recall_ipv": 0.74,
-      "f1_ipv": 0.81,
-      "auroc": 0.89,
-      "auprc": 0.91
+      "Accuracy": 0.8058252427184466,
+      "F1": 0.7818181818181819,
+      "ROC_AUC": 0.8143436423228843,
+      "PR_AUC": 0.812622715340827
     },
-    "subgroup_metrics": {
-      "gender": {
-        "female": { "tpr": 0.88, "fpr": 0.12, "support": 140 },
-        "male":   { "tpr": 0.72, "fpr": 0.19, "support": 110 },
-        "nonbinary": { "tpr": 0.69, "fpr": 0.22, "support": 30 }
-      }
-    },
-    "notes": "Struggles with emotional-only IPV descriptions."
+    "notes": "Evaluation of cot prompt",
+    "date_tested": "2025-11-13 23:22:28"
   },
-
   {
-    "date_tested": "2025-02-10",
-    "model": "llama3-8b",
-    "prompt_version": "v2",
+    "model_name": "qwen2.5-7b",
+    "prompt_version": "fewshot",
     "metrics": {
-      "accuracy": 0.80,
-      "precision_ipv": 0.86,
-      "recall_ipv": 0.70,
-      "f1_ipv": 0.77,
-      "auroc": 0.85,
-      "auprc": 0.87
+      "Accuracy": 0.8932038834951457,
+      "F1": 0.89,
+      "ROC_AUC": 0.8975229010841247,
+      "PR_AUC": 0.8935638327087934
     },
-    "subgroup_metrics": {},
-    "notes": ""
+    "notes": "Evaluation of fewshot prompt",
+    "date_tested": "2025-11-13 23:22:29"
+  },
+  {
+    "model_name": "qwen2.5-7b",
+    "prompt_version": "meta",
+    "metrics": {
+      "Accuracy": 0.8527508090614887,
+      "F1": 0.8428324697754751,
+      "ROC_AUC": 0.8588221699302463,
+      "PR_AUC": 0.8545270599177531
+    },
+    "notes": "Evaluation of meta prompt",
+    "date_tested": "2025-11-13 23:22:29"
+  },
+  {
+    "model_name": "qwen2.5-7b",
+    "prompt_version": "selfconsistency",
+    "metrics": {
+      "Accuracy": 0.8559870550161812,
+      "F1": 0.8462867012089809,
+      "ROC_AUC": 0.8620682410286579,
+      "PR_AUC": 0.8588377906953475
+    },
+    "notes": "Evaluation of selfconsistency prompt",
+    "date_tested": "2025-11-13 23:22:30"
+  },
+  {
+    "model_name": "qwen2.5-7b",
+    "prompt_version": "zeroshot",
+    "metrics": {
+      "Accuracy": 0.7281553398058253,
+      "F1": 0.6557377049180327,
+      "ROC_AUC": 0.7419741154718884,
+      "PR_AUC": 0.7533467312886377
+    },
+    "notes": "Evaluation of zeroshot prompt",
+    "date_tested": "2025-11-13 23:22:31"
   }
 ]
