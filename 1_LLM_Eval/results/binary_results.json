@@ -1,0 +1,39 @@
+[
+  {
+    "date_tested": "2025-02-09",
+    "model": "qwen2.5-7b",
+    "prompt_version": "v1",
+    "metrics": {
+      "accuracy": 0.82,
+      "precision_ipv": 0.89,
+      "recall_ipv": 0.74,
+      "f1_ipv": 0.81,
+      "auroc": 0.89,
+      "auprc": 0.91
+    },
+    "subgroup_metrics": {
+      "gender": {
+        "female": { "tpr": 0.88, "fpr": 0.12, "support": 140 },
+        "male":   { "tpr": 0.72, "fpr": 0.19, "support": 110 },
+        "nonbinary": { "tpr": 0.69, "fpr": 0.22, "support": 30 }
+      }
+    },
+    "notes": "Struggles with emotional-only IPV descriptions."
+  },
+
+  {
+    "date_tested": "2025-02-10",
+    "model": "llama3-8b",
+    "prompt_version": "v2",
+    "metrics": {
+      "accuracy": 0.80,
+      "precision_ipv": 0.86,
+      "recall_ipv": 0.70,
+      "f1_ipv": 0.77,
+      "auroc": 0.85,
+      "auprc": 0.87
+    },
+    "subgroup_metrics": {},
+    "notes": ""
+  }
+]
