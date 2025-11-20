@@ -1,0 +1,839 @@
+[
+  {
+    "id": 0,
+    "prompt_type": "fewshot",
+    "sentence": "I'm sitting here with a goofy smile and feeling that my opinion matters.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 1,
+    "prompt_type": "fewshot",
+    "sentence": "It's really boosting my confidence when he say stuff like that, or when he encourage me to do stuff I'm good at, e.g. he told me I should play more drums, since I was really good at it when we practiced last sunday.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 2,
+    "prompt_type": "fewshot",
+    "sentence": " I never imagined that someone could make me so happy and he's made such a positive impact on my life.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 3,
+    "prompt_type": "fewshot",
+    "sentence": "He motivates me to become the best version of myself.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 4,
+    "prompt_type": "fewshot",
+    "sentence": "He’s like a best friend that I can also live with and hug and kiss and... do other stuff with",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 5,
+    "prompt_type": "fewshot",
+    "sentence": "Even just thinking about it makes me feel all warm and melty.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 6,
+    "prompt_type": "fewshot",
+    "sentence": "My husband is so kind, giving, generous, and lovely.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 7,
+    "prompt_type": "fewshot",
+    "sentence": "Being with him has softened my rougher edges, and being with me has helped him understand and talk about his feelings.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 8,
+    "prompt_type": "fewshot",
+    "sentence": "She helped me work out a math problem :)",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 9,
+    "prompt_type": "fewshot",
+    "sentence": "When I come home from work, and my husband hears me put my key into the lock, I can hear him go “yayyy” on the other side of the door as he stands up to greet me.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 10,
+    "prompt_type": "fewshot",
+    "sentence": "He always makes me feel so loved and so happy to come home.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 11,
+    "prompt_type": "fewshot",
+    "sentence": "He stayed like that for 2 hours and just waited for me to feel ok.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 12,
+    "prompt_type": "fewshot",
+    "sentence": "He gives me so much warmth/love/appreciation everyday.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 13,
+    "prompt_type": "fewshot",
+    "sentence": "And everyday I’m thankful for his love. ",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 14,
+    "prompt_type": "fewshot",
+    "sentence": " I had to walk over a mile in really sore high heels and my boyfriend took off his shoes and let me wear them while he walked in his socks sometimes when things are bumpy in our relationship I will think back to this moment no matter how small it may be it always makes me realise that he's a good guy.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 15,
+    "prompt_type": "fewshot",
+    "sentence": "My bf went to the store and brought me soup, bread, ginger ale, made it for me, tucked me in, consistently refreshed the cool washcloth on my forehead and just snuggled and took care of me all night until my fever broke!!",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 16,
+    "prompt_type": "fewshot",
+    "sentence": "Sometimes when my partner speaks to me, I feel that it is with an air of superiority and condescending.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": true, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "EMOTIONAL"
+    ]
+  },
+  {
+    "id": 17,
+    "prompt_type": "fewshot",
+    "sentence": "The recent fights have started when I make a comment about feeling belittled by what she had just said.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": true, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "EMOTIONAL"
+    ]
+  },
+  {
+    "id": 18,
+    "prompt_type": "fewshot",
+    "sentence": "I know that if she senses frustration directed towards her, she will be angry and we will fight.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 19,
+    "prompt_type": "fewshot",
+    "sentence": "The comments that I make are calm, collected, and well-practiced in my head, because I am literally afraid of her.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": true, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "EMOTIONAL"
+    ]
+  },
+  {
+    "id": 20,
+    "prompt_type": "fewshot",
+    "sentence": "As she was yelling, I continued to ask why she was so angry,  and said that the coffee-making methods aren''t worth fighting over.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 21,
+    "prompt_type": "fewshot",
+    "sentence": "She called me a little bitch.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 22,
+    "prompt_type": "fewshot",
+    "sentence": "She got angry and we blew up again.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 23,
+    "prompt_type": "fewshot",
+    "sentence": "She leaves with kids and uninvites me to her parents'' NYE dinner via text.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 24,
+    "prompt_type": "fewshot",
+    "sentence": "She agigtatedly sits through telling  me that she''s angry that I pick fights with her every day and that she feels like she can''t talk about coffee or bacon because it will hurt my poor little feelings.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 25,
+    "prompt_type": "fewshot",
+    "sentence": "He was always angry,  snappy, mean, etc. ",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 26,
+    "prompt_type": "fewshot",
+    "sentence": "He would still get super pissy and mean but  it was more tolerable.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 27,
+    "prompt_type": "fewshot",
+    "sentence": "I checked the phone again, I found a picture of him in bed with the girl watching tv with no shirt on and his hand on her thigh  (he was laying on one of her legs) photo directly proved he had seen her and possibly  had sex.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 28,
+    "prompt_type": "fewshot",
+    "sentence": "He says a lot of this was insecurity, validation,  and the fact that he was so high all of the time that he had no regard for anyone  else, a massive ego, feeling invincible and so on.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 29,
+    "prompt_type": "fewshot",
+    "sentence": "The lies are what killed me.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 30,
+    "prompt_type": "fewshot",
+    "sentence": "The fights would be over small things like not putting shoes away but would blow up into massive fights where she was screaming her head off, throwing things around the house and physically abusing me.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 31,
+    "prompt_type": "fewshot",
+    "sentence": "Our fights became  more frequent, there would usually be a big fight once a week, she would verbally  abuse me and hit me, not always that hard, not enough to leave marks that lasted  longer about an hour, but nevertheless would hurt me physically and emotionally.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 32,
+    "prompt_type": "fewshot",
+    "sentence": "The fights even started to spill out onto the street when we walked around work on our lunch break, sometimes even in our place of work in the stairway.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 33,
+    "prompt_type": "fewshot",
+    "sentence": "She would stomp on my feet, spit on me, slap me, squeeze my arms digging her nails in.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 34,
+    "prompt_type": "fewshot",
+    "sentence": "No matter where we were, when she was angry she would not hesitate to verbally and physically abuse me.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 35,
+    "prompt_type": "fewshot",
+    "sentence": "I was spat at, choked,  punched, kicked, slapped had my life threatened, knifes pulled out of draws.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 36,
+    "prompt_type": "fewshot",
+    "sentence": "Fighting continued in our place of work (away from where people could see), on the streets  still, no where was safe.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 37,
+    "prompt_type": "fewshot",
+    "sentence": "She has a very short fuse and once she gets angry it takes a while  for her to calm down, she knows she has issues and is trying to sort them out with  therapy, medication, self reflection and talking with me in a very serious and constructive  manner.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 38,
+    "prompt_type": "fewshot",
+    "sentence": "However even the morning of writing this she got very angry at me when I   asked what shoes she wanted to wear to work and she didn't give me an answer so   i paused waiting for an answer and she got angry because i didn't take out the shoes she had been wearing all week.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 39,
+    "prompt_type": "fewshot",
+    "sentence": "Shes still angry at me about it now hours on.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 40,
+    "prompt_type": "fewshot",
+    "sentence": "Admittedly things have only gotten physical twice this  year, and we've only had 2 serious fights.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 41,
+    "prompt_type": "fewshot",
+    "sentence": "He got extremely angry and a little scary the last time I tried to get him to talk.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 42,
+    "prompt_type": "fewshot",
+    "sentence": "He got possessive,   controlling, manipulative, was a compulsive liar, and made me absolutely paranoid   that he was always watching me and would hurt me if our relationship wasn’t long distance. ",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 43,
+    "prompt_type": "fewshot",
+    "sentence": "We would have disastrous fights about this, usually him saying things like I act like a slut/toy, I’m a tool for guys, I’m stupid/idiot/retarded, I’m a textbook definition of a tragedy, him   hoping I end up with a bad man, I degrade myself, I cry over anything, I’m weak/disgusting/pathetic and so on.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 44,
+    "prompt_type": "fewshot",
+    "sentence": "“If you love me, you’ll do X.” “If you don’t do X, I’m leaving.”",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 45,
+    "prompt_type": "fewshot",
+    "sentence": " We’ve also fought about a lot of other stuff, which when I think about now, is quite small but the fight was insane.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 46,
+    "prompt_type": "fewshot",
+    "sentence": "He’d tell me such horrible things and make it like he’s leaving.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 47,
+    "prompt_type": "fewshot",
+    "sentence": "He doesn’t let me go clubbing or to bars, he isn’t a fan of my best friend and he likes if I ask for his permission on some things.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 48,
+    "prompt_type": "fewshot",
+    "sentence": "I have admitted I get scared of his anger.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 49,
+    "prompt_type": "fewshot",
+    "sentence": "He told me something along  the lines of me making my fear a reality and if I remain that way, I’ll always be  that way.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": true, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "EMOTIONAL"
+    ]
+  },
+  {
+    "id": 50,
+    "prompt_type": "fewshot",
+    "sentence": "He ended up breaking his phone out of anger.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 51,
+    "prompt_type": "fewshot",
+    "sentence": "When he dirty  talks, he says this thing that I really don’t like and I’ve told him not to say  it. He has promised me he won’t but he still says it.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 52,
+    "prompt_type": "fewshot",
+    "sentence": "Even now I''m sitting here thinking,  WHAT!?You rip my heart out, stamp on it, traumatise and undermine everything we''ve  shared- and then, \"oh, that was a blip, I didn''t mean it\"?",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 53,
+    "prompt_type": "fewshot",
+    "sentence": "I would never discuss someone whom I love  and value, whom I''ve shared my life with, someone I consider my best friend and  partner in all things; in such a careless, cruel, manipulative manner.It felt like  such a betrayal to be spoken of- to this idiotic, repressed, conservative, ignorant  little girl bestie- in such a flippant, \"well just dump him and what about this  guy (see picture) instead?\"",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 54,
+    "prompt_type": "fewshot",
+    "sentence": "Like I was some pet or toy.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 55,
+    "prompt_type": "fewshot",
+    "sentence": "That night was one of the most hurtful, embarrassing, confusing, upsetting nights of my life.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 56,
+    "prompt_type": "fewshot",
+    "sentence": "He mildly objected to me visiting family out of town by myself.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 57,
+    "prompt_type": "fewshot",
+    "sentence": "He would hesitate to give approval for time spent with friends by myself.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 58,
+    "prompt_type": "fewshot",
+    "sentence": "With this information on my location in real-time, he began regularly calling me to check up on where I was, who I was with, and what I was doing at any given location.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 59,
+    "prompt_type": "fewshot",
+    "sentence": "He downplayed his conduct, and denied that he was becoming problematic.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 60,
+    "prompt_type": "fewshot",
+    "sentence": "He showed no emotion or mercy, and began grabbing my things.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 61,
+    "prompt_type": "fewshot",
+    "sentence": "When I began calling 911 on my cell phone, he grabbed it out of my hands and threw it into a patch of woods at the far side of the yard.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 62,
+    "prompt_type": "fewshot",
+    "sentence": "When I then picked up the landline phone, he cut the line so that I couldn’t make an outgoing call.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 63,
+    "prompt_type": "fewshot",
+    "sentence": "When I got home, he accused me of giving off a “weird vibe”, and asked what I was doing that would make me late.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 64,
+    "prompt_type": "fewshot",
+    "sentence": "When I arrived home, he began to imply that I was withholding  something from him, and not being truthful about my whereabouts.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 65,
+    "prompt_type": "fewshot",
+    "sentence": "The hurt, the lack of trust, the attempts to control, and the accusations of infidelity.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 66,
+    "prompt_type": "fewshot",
+    "sentence": "I’ve made it clear that I do not want intimacy with him, but he’s pushed for it, saying it will help us become closer.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 67,
+    "prompt_type": "fewshot",
+    "sentence": "When I had the baby, things were okay, but he would lose his fuse quickly at some things and he was still drinking.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 68,
+    "prompt_type": "fewshot",
+    "sentence": "He would lie to me, hide money,  go on long drives, lie about where he was, etc.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 69,
+    "prompt_type": "fewshot",
+    "sentence": "Denying everything, telling  me I'm stupid, and one time calling me a bitch.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 70,
+    "prompt_type": "fewshot",
+    "sentence": "He was hiding that from me.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 71,
+    "prompt_type": "fewshot",
+    "sentence": "Told me I was making things up or he would lie through his teeth and make up some answer that I believed.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 72,
+    "prompt_type": "fewshot",
+    "sentence": "But I also can't take any more of this controlling  behavior and emotional abuse.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 73,
+    "prompt_type": "fewshot",
+    "sentence": "We moved in together shortly after and I found out he had an addiction to pornography and he had a horrible temper.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 74,
+    "prompt_type": "fewshot",
+    "sentence": "He would call me crazy for not believing him, if  I cried, or had a panic attack, he would call me ridiculous, laugh at me, tell me  I'm making a big deal out of nothing.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 75,
+    "prompt_type": "fewshot",
+    "sentence": "If I told him I lost my trust for him, he  would roll his eyes, tell me I'm crazy.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 76,
+    "prompt_type": "fewshot",
+    "sentence": "His dismissive attitude sends me into full  panic mode and I lose my cool.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 77,
+    "prompt_type": "fewshot",
+    "sentence": "I start to yell or freak out, hyperventilate, scream at him to please talk to me.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 78,
+    "prompt_type": "fewshot",
+    "sentence": "He says that his ignoring  me is my fault because of the way I'm acting.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 79,
+    "prompt_type": "fewshot",
+    "sentence": "But my husband always  made me feel like everything was my fault.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 80,
+    "prompt_type": "fewshot",
+    "sentence": "When he would finally admit to relapsing,  I would tell him how fucked up it was for calling me crazy and gaslighting me for  accusing him of lying and trickle-truthing, and he would dismiss that too.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 81,
+    "prompt_type": "fewshot",
+    "sentence": "There were times he would run up on me and then shove his forehead into my forehead, scream so hard in my face that spit would fly onto me, he's grabbed me very hard before.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 82,
+    "prompt_type": "fewshot",
+    "sentence": "We've gotten physical to where we'd push  each other around.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 83,
+    "prompt_type": "fewshot",
+    "sentence": "He has choked me, kicked me, pulled my hair a couple times.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 84,
+    "prompt_type": "fewshot",
+    "sentence": "But then after that we are both so angry that we are just hitting  each other like children without any real reason other than we are too angry to  use words.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 85,
+    "prompt_type": "fewshot",
+    "sentence": "If he hits me, it's my fault because I started it.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 86,
+    "prompt_type": "fewshot",
+    "sentence": "If he calls  me a bitch/crazy/ridiculous/too emotional, it's because I AM being that way.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 87,
+    "prompt_type": "fewshot",
+    "sentence": "I would tell you that his temper is very bad and he is usually the first to get explosive.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 88,
+    "prompt_type": "fewshot",
+    "sentence": "I feel like I'm walking on eggshells around him and have  to very gently bring up anything that bothers me in a very gentle, loving, subtle  way as to not upset him.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 89,
+    "prompt_type": "fewshot",
+    "sentence": "I'm terrified to ever be bothered by something and just the thought of bringing something up to him sends my anxiety into full force that I obsess over it all day  and obsess over how I'm going to bring it up without making him mad.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 90,
+    "prompt_type": "fewshot",
+    "sentence": "Him blaming everything on me all the time makes me question whether or not I'm a shitty person and if I deserve to be treated the way he treats me.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 91,
+    "prompt_type": "fewshot",
+    "sentence": "But just because I  am direct/blunt, doesn't mean my husband has any excuse to lose his temper and yell, scream, call me names, run up on me, hang up on me, ignore my calls, dismiss my  feelings, or gaslight me into believing everything is my fault and I am the cause  of all our problems.",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 92,
+    "prompt_type": "fewshot",
+    "sentence": "We were also having troubles with our application for the local health se",
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  }
+]

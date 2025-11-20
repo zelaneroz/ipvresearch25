@@ -18,7 +18,7 @@ Focus: run Llama 3.1 (8B) and Qwen 2.5 (7B) against the labeled Reddit datase
 - **Evaluation parity**: [1_LLM_Eval/eval_llm_pipeline.py](1_LLM_Eval/eval_llm_pipeline.py) now matches the DETECTIPV metric stack (accuracy, precision, F1, ROC-AUC) and introduces confidence-based waterfall plots to visualize subtype predictions.
 - **Sample usage doc**: [1_LLM_Eval/eval_pipeline_sample_use.ipynb](1_LLM_Eval/eval_pipeline_sample_use.ipynb) documents how to plug new JSON outputs into the shared pipeline, keeping future experiments consistent.
 
-### Week 2 (In Progress) – Proprietary LLM Sampling & New Data
+### Week 2 – Proprietary LLM Sampling & New Data
 Focus: broaden coverage beyond open models and stress-test on a newer dataset.
 1. **Sampling + evaluation on proprietary LLMs (e.g., GPT-5)**  
    - Reuse the same JSON schema so results drop directly into the evaluation pipeline.  
@@ -27,8 +27,12 @@ Focus: broaden coverage beyond open models and stress-test on a newer dataset.
    - Clean/ingest the additional corpus (encrypted or kept private as needed).  
    - Run spot checks in notebooks, then formalize via the pipeline once labeling is aligned.
 
-## Next Steps
-1. **Finalize GPT-5 (or other proprietary) sampling plan**: document prompts + temperature settings alongside the existing prompt collection in [1_LLM_Eval/prompts.md](1_LLM_Eval/prompts.md).
-2. **Integrate the new dataset**: add a sanitized CSV/Parquet placeholder (or loader script) plus clear instructions for accessing the private source.
-3. **Benchmark summary**: once Week 2 runs complete, update this README with comparative charts (binary vs multitype, open vs proprietary) to give stakeholders a quick snapshot.
-...
+### Week 4 (in Progress)
+* Improve prompts
+  * Binary
+    * Define IPV better
+    * "Penalize" or define what wouldn't be considered IPV.
+  * Multitype
+    * Better definition of what each type of IPV is through keywords to describe.
+* Investigate what sentences do they get wrong? Compare between Qwen & ChatGPT results.
+

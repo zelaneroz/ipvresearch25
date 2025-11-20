@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "prompt_type": "cot",
+    "sentence": "I'm sitting here with a goofy smile and feeling that my opinion matters.",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 1,
+    "prompt_type": "cot",
+    "sentence": "It's really boosting my confidence when he say stuff like that..., since I was really good at it when we practiced last sunday.",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 2,
+    "prompt_type": "cot",
+    "sentence": "\u00a0I never imagined that someone could make me so happy and he's made such a positive impact on my life.",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 3,
+    "prompt_type": "cot",
+    "sentence": "He motivates me to become the best version of myself.",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 4,
+    "prompt_type": "cot",
+    "sentence": "He\u2019s like a best friend that I can also live with and hug and kiss and... do other stuff with",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 5,
+    "prompt_type": "cot",
+    "sentence": "Even just thinking about it makes me feel all warm and melty.",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 6,
+    "prompt_type": "cot",
+    "sentence": "My husband is so kind, giving, generous, and lovely.",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 7,
+    "prompt_type": "cot",
+    "sentence": "Being with him has softened my rougher edges, and being with me has helped him understand and talk about his feelings.",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 8,
+    "prompt_type": "cot",
+    "sentence": "She helped me work out a math problem :)",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 9,
+    "prompt_type": "cot",
+    "sentence": "When I come home from work, and my husband hears me put my key...yy\u201d on the other side of the door as he stands up to greet me.",
+    "raw_response": "{\"physical_abuse\":false,\"emotional_abuse\":false,\"sexual_abuse\":false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  }
+]

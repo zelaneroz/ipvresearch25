@@ -1,0 +1,5564 @@
+[
+  {
+    "id": 0,
+    "prompt_type": "zeroshot",
+    "sentence": 0,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 1,
+    "prompt_type": "zeroshot",
+    "sentence": 1,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 2,
+    "prompt_type": "zeroshot",
+    "sentence": 2,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 3,
+    "prompt_type": "zeroshot",
+    "sentence": 3,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 4,
+    "prompt_type": "zeroshot",
+    "sentence": 4,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 5,
+    "prompt_type": "zeroshot",
+    "sentence": 5,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 6,
+    "prompt_type": "zeroshot",
+    "sentence": 6,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 7,
+    "prompt_type": "zeroshot",
+    "sentence": 7,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 8,
+    "prompt_type": "zeroshot",
+    "sentence": 8,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 9,
+    "prompt_type": "zeroshot",
+    "sentence": 9,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 10,
+    "prompt_type": "zeroshot",
+    "sentence": 10,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 11,
+    "prompt_type": "zeroshot",
+    "sentence": 11,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 12,
+    "prompt_type": "zeroshot",
+    "sentence": 12,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 13,
+    "prompt_type": "zeroshot",
+    "sentence": 13,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 14,
+    "prompt_type": "zeroshot",
+    "sentence": 14,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 15,
+    "prompt_type": "zeroshot",
+    "sentence": 15,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 16,
+    "prompt_type": "zeroshot",
+    "sentence": 16,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 17,
+    "prompt_type": "zeroshot",
+    "sentence": 17,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 18,
+    "prompt_type": "zeroshot",
+    "sentence": 18,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 19,
+    "prompt_type": "zeroshot",
+    "sentence": 19,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 20,
+    "prompt_type": "zeroshot",
+    "sentence": 20,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 21,
+    "prompt_type": "zeroshot",
+    "sentence": 21,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 22,
+    "prompt_type": "zeroshot",
+    "sentence": 22,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 23,
+    "prompt_type": "zeroshot",
+    "sentence": 23,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 24,
+    "prompt_type": "zeroshot",
+    "sentence": 24,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 25,
+    "prompt_type": "zeroshot",
+    "sentence": 25,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 26,
+    "prompt_type": "zeroshot",
+    "sentence": 26,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 27,
+    "prompt_type": "zeroshot",
+    "sentence": 27,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 28,
+    "prompt_type": "zeroshot",
+    "sentence": 28,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 29,
+    "prompt_type": "zeroshot",
+    "sentence": 29,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 30,
+    "prompt_type": "zeroshot",
+    "sentence": 30,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 31,
+    "prompt_type": "zeroshot",
+    "sentence": 31,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 32,
+    "prompt_type": "zeroshot",
+    "sentence": 32,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 33,
+    "prompt_type": "zeroshot",
+    "sentence": 33,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 34,
+    "prompt_type": "zeroshot",
+    "sentence": 34,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 35,
+    "prompt_type": "zeroshot",
+    "sentence": 35,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 36,
+    "prompt_type": "zeroshot",
+    "sentence": 36,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 37,
+    "prompt_type": "zeroshot",
+    "sentence": 37,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 38,
+    "prompt_type": "zeroshot",
+    "sentence": 38,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 39,
+    "prompt_type": "zeroshot",
+    "sentence": 39,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 40,
+    "prompt_type": "zeroshot",
+    "sentence": 40,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 41,
+    "prompt_type": "zeroshot",
+    "sentence": 41,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 42,
+    "prompt_type": "zeroshot",
+    "sentence": 42,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 43,
+    "prompt_type": "zeroshot",
+    "sentence": 43,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 44,
+    "prompt_type": "zeroshot",
+    "sentence": 44,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 45,
+    "prompt_type": "zeroshot",
+    "sentence": 45,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 46,
+    "prompt_type": "zeroshot",
+    "sentence": 46,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 47,
+    "prompt_type": "zeroshot",
+    "sentence": 47,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 48,
+    "prompt_type": "zeroshot",
+    "sentence": 48,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 49,
+    "prompt_type": "zeroshot",
+    "sentence": 49,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 50,
+    "prompt_type": "zeroshot",
+    "sentence": 50,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 51,
+    "prompt_type": "zeroshot",
+    "sentence": 51,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 52,
+    "prompt_type": "zeroshot",
+    "sentence": 52,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 53,
+    "prompt_type": "zeroshot",
+    "sentence": 53,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 54,
+    "prompt_type": "zeroshot",
+    "sentence": 54,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 55,
+    "prompt_type": "zeroshot",
+    "sentence": 55,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 56,
+    "prompt_type": "zeroshot",
+    "sentence": 56,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 57,
+    "prompt_type": "zeroshot",
+    "sentence": 57,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 58,
+    "prompt_type": "zeroshot",
+    "sentence": 58,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 59,
+    "prompt_type": "zeroshot",
+    "sentence": 59,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 60,
+    "prompt_type": "zeroshot",
+    "sentence": 60,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 61,
+    "prompt_type": "zeroshot",
+    "sentence": 61,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 62,
+    "prompt_type": "zeroshot",
+    "sentence": 62,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 63,
+    "prompt_type": "zeroshot",
+    "sentence": 63,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 64,
+    "prompt_type": "zeroshot",
+    "sentence": 64,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 65,
+    "prompt_type": "zeroshot",
+    "sentence": 65,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 66,
+    "prompt_type": "zeroshot",
+    "sentence": 66,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 67,
+    "prompt_type": "zeroshot",
+    "sentence": 67,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 68,
+    "prompt_type": "zeroshot",
+    "sentence": 68,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 69,
+    "prompt_type": "zeroshot",
+    "sentence": 69,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 70,
+    "prompt_type": "zeroshot",
+    "sentence": 70,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 71,
+    "prompt_type": "zeroshot",
+    "sentence": 71,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 72,
+    "prompt_type": "zeroshot",
+    "sentence": 72,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 73,
+    "prompt_type": "zeroshot",
+    "sentence": 73,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 74,
+    "prompt_type": "zeroshot",
+    "sentence": 74,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 75,
+    "prompt_type": "zeroshot",
+    "sentence": 75,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 76,
+    "prompt_type": "zeroshot",
+    "sentence": 76,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 77,
+    "prompt_type": "zeroshot",
+    "sentence": 77,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 78,
+    "prompt_type": "zeroshot",
+    "sentence": 78,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 79,
+    "prompt_type": "zeroshot",
+    "sentence": 79,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 80,
+    "prompt_type": "zeroshot",
+    "sentence": 80,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 81,
+    "prompt_type": "zeroshot",
+    "sentence": 81,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 82,
+    "prompt_type": "zeroshot",
+    "sentence": 82,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 83,
+    "prompt_type": "zeroshot",
+    "sentence": 83,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 84,
+    "prompt_type": "zeroshot",
+    "sentence": 84,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 85,
+    "prompt_type": "zeroshot",
+    "sentence": 85,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 86,
+    "prompt_type": "zeroshot",
+    "sentence": 86,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 87,
+    "prompt_type": "zeroshot",
+    "sentence": 87,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 88,
+    "prompt_type": "zeroshot",
+    "sentence": 88,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 89,
+    "prompt_type": "zeroshot",
+    "sentence": 89,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 90,
+    "prompt_type": "zeroshot",
+    "sentence": 90,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 91,
+    "prompt_type": "zeroshot",
+    "sentence": 91,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 92,
+    "prompt_type": "zeroshot",
+    "sentence": 92,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 93,
+    "prompt_type": "zeroshot",
+    "sentence": 93,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 94,
+    "prompt_type": "zeroshot",
+    "sentence": 94,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 95,
+    "prompt_type": "zeroshot",
+    "sentence": 95,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 96,
+    "prompt_type": "zeroshot",
+    "sentence": 96,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 97,
+    "prompt_type": "zeroshot",
+    "sentence": 97,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 98,
+    "prompt_type": "zeroshot",
+    "sentence": 98,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 99,
+    "prompt_type": "zeroshot",
+    "sentence": 99,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 100,
+    "prompt_type": "zeroshot",
+    "sentence": 100,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 101,
+    "prompt_type": "zeroshot",
+    "sentence": 101,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 102,
+    "prompt_type": "zeroshot",
+    "sentence": 102,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 103,
+    "prompt_type": "zeroshot",
+    "sentence": 103,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 104,
+    "prompt_type": "zeroshot",
+    "sentence": 104,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 105,
+    "prompt_type": "zeroshot",
+    "sentence": 105,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 106,
+    "prompt_type": "zeroshot",
+    "sentence": 106,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 107,
+    "prompt_type": "zeroshot",
+    "sentence": 107,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 108,
+    "prompt_type": "zeroshot",
+    "sentence": 108,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 109,
+    "prompt_type": "zeroshot",
+    "sentence": 109,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 110,
+    "prompt_type": "zeroshot",
+    "sentence": 110,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 111,
+    "prompt_type": "zeroshot",
+    "sentence": 111,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 112,
+    "prompt_type": "zeroshot",
+    "sentence": 112,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 113,
+    "prompt_type": "zeroshot",
+    "sentence": 113,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 114,
+    "prompt_type": "zeroshot",
+    "sentence": 114,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 115,
+    "prompt_type": "zeroshot",
+    "sentence": 115,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 116,
+    "prompt_type": "zeroshot",
+    "sentence": 116,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 117,
+    "prompt_type": "zeroshot",
+    "sentence": 117,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 118,
+    "prompt_type": "zeroshot",
+    "sentence": 118,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 119,
+    "prompt_type": "zeroshot",
+    "sentence": 119,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 120,
+    "prompt_type": "zeroshot",
+    "sentence": 120,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 121,
+    "prompt_type": "zeroshot",
+    "sentence": 121,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 122,
+    "prompt_type": "zeroshot",
+    "sentence": 122,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 123,
+    "prompt_type": "zeroshot",
+    "sentence": 123,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 124,
+    "prompt_type": "zeroshot",
+    "sentence": 124,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 125,
+    "prompt_type": "zeroshot",
+    "sentence": 125,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 126,
+    "prompt_type": "zeroshot",
+    "sentence": 126,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 127,
+    "prompt_type": "zeroshot",
+    "sentence": 127,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 128,
+    "prompt_type": "zeroshot",
+    "sentence": 128,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 129,
+    "prompt_type": "zeroshot",
+    "sentence": 129,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 130,
+    "prompt_type": "zeroshot",
+    "sentence": 130,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 131,
+    "prompt_type": "zeroshot",
+    "sentence": 131,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 132,
+    "prompt_type": "zeroshot",
+    "sentence": 132,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 133,
+    "prompt_type": "zeroshot",
+    "sentence": 133,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 134,
+    "prompt_type": "zeroshot",
+    "sentence": 134,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 135,
+    "prompt_type": "zeroshot",
+    "sentence": 135,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 136,
+    "prompt_type": "zeroshot",
+    "sentence": 136,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 137,
+    "prompt_type": "zeroshot",
+    "sentence": 137,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 138,
+    "prompt_type": "zeroshot",
+    "sentence": 138,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 139,
+    "prompt_type": "zeroshot",
+    "sentence": 139,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 140,
+    "prompt_type": "zeroshot",
+    "sentence": 140,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 141,
+    "prompt_type": "zeroshot",
+    "sentence": 141,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 142,
+    "prompt_type": "zeroshot",
+    "sentence": 142,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 143,
+    "prompt_type": "zeroshot",
+    "sentence": 143,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 144,
+    "prompt_type": "zeroshot",
+    "sentence": 144,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 145,
+    "prompt_type": "zeroshot",
+    "sentence": 145,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 146,
+    "prompt_type": "zeroshot",
+    "sentence": 146,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 147,
+    "prompt_type": "zeroshot",
+    "sentence": 147,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 148,
+    "prompt_type": "zeroshot",
+    "sentence": 148,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 149,
+    "prompt_type": "zeroshot",
+    "sentence": 149,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 150,
+    "prompt_type": "zeroshot",
+    "sentence": 150,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 151,
+    "prompt_type": "zeroshot",
+    "sentence": 151,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 152,
+    "prompt_type": "zeroshot",
+    "sentence": 152,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 153,
+    "prompt_type": "zeroshot",
+    "sentence": 153,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 154,
+    "prompt_type": "zeroshot",
+    "sentence": 154,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 155,
+    "prompt_type": "zeroshot",
+    "sentence": 155,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 156,
+    "prompt_type": "zeroshot",
+    "sentence": 156,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 157,
+    "prompt_type": "zeroshot",
+    "sentence": 157,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 158,
+    "prompt_type": "zeroshot",
+    "sentence": 158,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 159,
+    "prompt_type": "zeroshot",
+    "sentence": 159,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 160,
+    "prompt_type": "zeroshot",
+    "sentence": 160,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 161,
+    "prompt_type": "zeroshot",
+    "sentence": 161,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 162,
+    "prompt_type": "zeroshot",
+    "sentence": 162,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 163,
+    "prompt_type": "zeroshot",
+    "sentence": 163,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 164,
+    "prompt_type": "zeroshot",
+    "sentence": 164,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 165,
+    "prompt_type": "zeroshot",
+    "sentence": 165,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 166,
+    "prompt_type": "zeroshot",
+    "sentence": 166,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 167,
+    "prompt_type": "zeroshot",
+    "sentence": 167,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 168,
+    "prompt_type": "zeroshot",
+    "sentence": 168,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 169,
+    "prompt_type": "zeroshot",
+    "sentence": 169,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 170,
+    "prompt_type": "zeroshot",
+    "sentence": 170,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 171,
+    "prompt_type": "zeroshot",
+    "sentence": 171,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 172,
+    "prompt_type": "zeroshot",
+    "sentence": 172,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 173,
+    "prompt_type": "zeroshot",
+    "sentence": 173,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 174,
+    "prompt_type": "zeroshot",
+    "sentence": 174,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 175,
+    "prompt_type": "zeroshot",
+    "sentence": 175,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 176,
+    "prompt_type": "zeroshot",
+    "sentence": 176,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 177,
+    "prompt_type": "zeroshot",
+    "sentence": 177,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 178,
+    "prompt_type": "zeroshot",
+    "sentence": 178,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 179,
+    "prompt_type": "zeroshot",
+    "sentence": 179,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 180,
+    "prompt_type": "zeroshot",
+    "sentence": 180,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 181,
+    "prompt_type": "zeroshot",
+    "sentence": 181,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 182,
+    "prompt_type": "zeroshot",
+    "sentence": 182,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 183,
+    "prompt_type": "zeroshot",
+    "sentence": 183,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 184,
+    "prompt_type": "zeroshot",
+    "sentence": 184,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 185,
+    "prompt_type": "zeroshot",
+    "sentence": 185,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 186,
+    "prompt_type": "zeroshot",
+    "sentence": 186,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 187,
+    "prompt_type": "zeroshot",
+    "sentence": 187,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 188,
+    "prompt_type": "zeroshot",
+    "sentence": 188,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 189,
+    "prompt_type": "zeroshot",
+    "sentence": 189,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 190,
+    "prompt_type": "zeroshot",
+    "sentence": 190,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 191,
+    "prompt_type": "zeroshot",
+    "sentence": 191,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 192,
+    "prompt_type": "zeroshot",
+    "sentence": 192,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 193,
+    "prompt_type": "zeroshot",
+    "sentence": 193,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 194,
+    "prompt_type": "zeroshot",
+    "sentence": 194,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 195,
+    "prompt_type": "zeroshot",
+    "sentence": 195,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 196,
+    "prompt_type": "zeroshot",
+    "sentence": 196,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 197,
+    "prompt_type": "zeroshot",
+    "sentence": 197,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 198,
+    "prompt_type": "zeroshot",
+    "sentence": 198,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 199,
+    "prompt_type": "zeroshot",
+    "sentence": 199,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 200,
+    "prompt_type": "zeroshot",
+    "sentence": 200,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 201,
+    "prompt_type": "zeroshot",
+    "sentence": 201,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 202,
+    "prompt_type": "zeroshot",
+    "sentence": 202,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 203,
+    "prompt_type": "zeroshot",
+    "sentence": 203,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 204,
+    "prompt_type": "zeroshot",
+    "sentence": 204,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 205,
+    "prompt_type": "zeroshot",
+    "sentence": 205,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 206,
+    "prompt_type": "zeroshot",
+    "sentence": 206,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 207,
+    "prompt_type": "zeroshot",
+    "sentence": 207,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 208,
+    "prompt_type": "zeroshot",
+    "sentence": 208,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 209,
+    "prompt_type": "zeroshot",
+    "sentence": 209,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 210,
+    "prompt_type": "zeroshot",
+    "sentence": 210,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 211,
+    "prompt_type": "zeroshot",
+    "sentence": 211,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 212,
+    "prompt_type": "zeroshot",
+    "sentence": 212,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 213,
+    "prompt_type": "zeroshot",
+    "sentence": 213,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 214,
+    "prompt_type": "zeroshot",
+    "sentence": 214,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 215,
+    "prompt_type": "zeroshot",
+    "sentence": 215,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 216,
+    "prompt_type": "zeroshot",
+    "sentence": 216,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 217,
+    "prompt_type": "zeroshot",
+    "sentence": 217,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 218,
+    "prompt_type": "zeroshot",
+    "sentence": 218,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 219,
+    "prompt_type": "zeroshot",
+    "sentence": 219,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 220,
+    "prompt_type": "zeroshot",
+    "sentence": 220,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 221,
+    "prompt_type": "zeroshot",
+    "sentence": 221,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 222,
+    "prompt_type": "zeroshot",
+    "sentence": 222,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 223,
+    "prompt_type": "zeroshot",
+    "sentence": 223,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 224,
+    "prompt_type": "zeroshot",
+    "sentence": 224,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 225,
+    "prompt_type": "zeroshot",
+    "sentence": 225,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 226,
+    "prompt_type": "zeroshot",
+    "sentence": 226,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 227,
+    "prompt_type": "zeroshot",
+    "sentence": 227,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 228,
+    "prompt_type": "zeroshot",
+    "sentence": 228,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 229,
+    "prompt_type": "zeroshot",
+    "sentence": 229,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 230,
+    "prompt_type": "zeroshot",
+    "sentence": 230,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 231,
+    "prompt_type": "zeroshot",
+    "sentence": 231,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 232,
+    "prompt_type": "zeroshot",
+    "sentence": 232,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 233,
+    "prompt_type": "zeroshot",
+    "sentence": 233,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 234,
+    "prompt_type": "zeroshot",
+    "sentence": 234,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 235,
+    "prompt_type": "zeroshot",
+    "sentence": 235,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 236,
+    "prompt_type": "zeroshot",
+    "sentence": 236,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 237,
+    "prompt_type": "zeroshot",
+    "sentence": 237,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 238,
+    "prompt_type": "zeroshot",
+    "sentence": 238,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 239,
+    "prompt_type": "zeroshot",
+    "sentence": 239,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 240,
+    "prompt_type": "zeroshot",
+    "sentence": 240,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 241,
+    "prompt_type": "zeroshot",
+    "sentence": 241,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 242,
+    "prompt_type": "zeroshot",
+    "sentence": 242,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 243,
+    "prompt_type": "zeroshot",
+    "sentence": 243,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 244,
+    "prompt_type": "zeroshot",
+    "sentence": 244,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 245,
+    "prompt_type": "zeroshot",
+    "sentence": 245,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 246,
+    "prompt_type": "zeroshot",
+    "sentence": 246,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 247,
+    "prompt_type": "zeroshot",
+    "sentence": 247,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 248,
+    "prompt_type": "zeroshot",
+    "sentence": 248,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 249,
+    "prompt_type": "zeroshot",
+    "sentence": 249,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 250,
+    "prompt_type": "zeroshot",
+    "sentence": 250,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 251,
+    "prompt_type": "zeroshot",
+    "sentence": 251,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 252,
+    "prompt_type": "zeroshot",
+    "sentence": 252,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 253,
+    "prompt_type": "zeroshot",
+    "sentence": 253,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 254,
+    "prompt_type": "zeroshot",
+    "sentence": 254,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 255,
+    "prompt_type": "zeroshot",
+    "sentence": 255,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 256,
+    "prompt_type": "zeroshot",
+    "sentence": 256,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 257,
+    "prompt_type": "zeroshot",
+    "sentence": 257,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 258,
+    "prompt_type": "zeroshot",
+    "sentence": 258,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 259,
+    "prompt_type": "zeroshot",
+    "sentence": 259,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 260,
+    "prompt_type": "zeroshot",
+    "sentence": 260,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 261,
+    "prompt_type": "zeroshot",
+    "sentence": 261,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 262,
+    "prompt_type": "zeroshot",
+    "sentence": 262,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 263,
+    "prompt_type": "zeroshot",
+    "sentence": 263,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 264,
+    "prompt_type": "zeroshot",
+    "sentence": 264,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 265,
+    "prompt_type": "zeroshot",
+    "sentence": 265,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 266,
+    "prompt_type": "zeroshot",
+    "sentence": 266,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 267,
+    "prompt_type": "zeroshot",
+    "sentence": 267,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 268,
+    "prompt_type": "zeroshot",
+    "sentence": 268,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 269,
+    "prompt_type": "zeroshot",
+    "sentence": 269,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 270,
+    "prompt_type": "zeroshot",
+    "sentence": 270,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 271,
+    "prompt_type": "zeroshot",
+    "sentence": 271,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 272,
+    "prompt_type": "zeroshot",
+    "sentence": 272,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 273,
+    "prompt_type": "zeroshot",
+    "sentence": 273,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 274,
+    "prompt_type": "zeroshot",
+    "sentence": 274,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 275,
+    "prompt_type": "zeroshot",
+    "sentence": 275,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 276,
+    "prompt_type": "zeroshot",
+    "sentence": 276,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 277,
+    "prompt_type": "zeroshot",
+    "sentence": 277,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 278,
+    "prompt_type": "zeroshot",
+    "sentence": 278,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 279,
+    "prompt_type": "zeroshot",
+    "sentence": 279,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 280,
+    "prompt_type": "zeroshot",
+    "sentence": 280,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 281,
+    "prompt_type": "zeroshot",
+    "sentence": 281,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 282,
+    "prompt_type": "zeroshot",
+    "sentence": 282,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 283,
+    "prompt_type": "zeroshot",
+    "sentence": 283,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 284,
+    "prompt_type": "zeroshot",
+    "sentence": 284,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 285,
+    "prompt_type": "zeroshot",
+    "sentence": 285,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 286,
+    "prompt_type": "zeroshot",
+    "sentence": 286,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 287,
+    "prompt_type": "zeroshot",
+    "sentence": 287,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 288,
+    "prompt_type": "zeroshot",
+    "sentence": 288,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 289,
+    "prompt_type": "zeroshot",
+    "sentence": 289,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 290,
+    "prompt_type": "zeroshot",
+    "sentence": 290,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 291,
+    "prompt_type": "zeroshot",
+    "sentence": 291,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 292,
+    "prompt_type": "zeroshot",
+    "sentence": 292,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 293,
+    "prompt_type": "zeroshot",
+    "sentence": 293,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 294,
+    "prompt_type": "zeroshot",
+    "sentence": 294,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 295,
+    "prompt_type": "zeroshot",
+    "sentence": 295,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 296,
+    "prompt_type": "zeroshot",
+    "sentence": 296,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 297,
+    "prompt_type": "zeroshot",
+    "sentence": 297,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 298,
+    "prompt_type": "zeroshot",
+    "sentence": 298,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 299,
+    "prompt_type": "zeroshot",
+    "sentence": 299,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 300,
+    "prompt_type": "zeroshot",
+    "sentence": 300,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 301,
+    "prompt_type": "zeroshot",
+    "sentence": 301,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 302,
+    "prompt_type": "zeroshot",
+    "sentence": 302,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 303,
+    "prompt_type": "zeroshot",
+    "sentence": 303,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 304,
+    "prompt_type": "zeroshot",
+    "sentence": 304,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 305,
+    "prompt_type": "zeroshot",
+    "sentence": 305,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 306,
+    "prompt_type": "zeroshot",
+    "sentence": 306,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 307,
+    "prompt_type": "zeroshot",
+    "sentence": 307,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 308,
+    "prompt_type": "zeroshot",
+    "sentence": 308,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 309,
+    "prompt_type": "zeroshot",
+    "sentence": 309,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 310,
+    "prompt_type": "zeroshot",
+    "sentence": 310,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 311,
+    "prompt_type": "zeroshot",
+    "sentence": 311,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 312,
+    "prompt_type": "zeroshot",
+    "sentence": 312,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 313,
+    "prompt_type": "zeroshot",
+    "sentence": 313,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 314,
+    "prompt_type": "zeroshot",
+    "sentence": 314,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 315,
+    "prompt_type": "zeroshot",
+    "sentence": 315,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 316,
+    "prompt_type": "zeroshot",
+    "sentence": 316,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 317,
+    "prompt_type": "zeroshot",
+    "sentence": 317,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 318,
+    "prompt_type": "zeroshot",
+    "sentence": 318,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 319,
+    "prompt_type": "zeroshot",
+    "sentence": 319,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 320,
+    "prompt_type": "zeroshot",
+    "sentence": 320,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 321,
+    "prompt_type": "zeroshot",
+    "sentence": 321,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 322,
+    "prompt_type": "zeroshot",
+    "sentence": 322,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 323,
+    "prompt_type": "zeroshot",
+    "sentence": 323,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 324,
+    "prompt_type": "zeroshot",
+    "sentence": 324,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 325,
+    "prompt_type": "zeroshot",
+    "sentence": 325,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 326,
+    "prompt_type": "zeroshot",
+    "sentence": 326,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 327,
+    "prompt_type": "zeroshot",
+    "sentence": 327,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 328,
+    "prompt_type": "zeroshot",
+    "sentence": 328,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 329,
+    "prompt_type": "zeroshot",
+    "sentence": 329,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 330,
+    "prompt_type": "zeroshot",
+    "sentence": 330,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 331,
+    "prompt_type": "zeroshot",
+    "sentence": 331,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 332,
+    "prompt_type": "zeroshot",
+    "sentence": 332,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 333,
+    "prompt_type": "zeroshot",
+    "sentence": 333,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 334,
+    "prompt_type": "zeroshot",
+    "sentence": 334,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 335,
+    "prompt_type": "zeroshot",
+    "sentence": 335,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 336,
+    "prompt_type": "zeroshot",
+    "sentence": 336,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 337,
+    "prompt_type": "zeroshot",
+    "sentence": 337,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 338,
+    "prompt_type": "zeroshot",
+    "sentence": 338,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 339,
+    "prompt_type": "zeroshot",
+    "sentence": 339,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 340,
+    "prompt_type": "zeroshot",
+    "sentence": 340,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 341,
+    "prompt_type": "zeroshot",
+    "sentence": 341,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 342,
+    "prompt_type": "zeroshot",
+    "sentence": 342,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 343,
+    "prompt_type": "zeroshot",
+    "sentence": 343,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 344,
+    "prompt_type": "zeroshot",
+    "sentence": 344,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 345,
+    "prompt_type": "zeroshot",
+    "sentence": 345,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 346,
+    "prompt_type": "zeroshot",
+    "sentence": 346,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 347,
+    "prompt_type": "zeroshot",
+    "sentence": 347,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 348,
+    "prompt_type": "zeroshot",
+    "sentence": 348,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 349,
+    "prompt_type": "zeroshot",
+    "sentence": 349,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 350,
+    "prompt_type": "zeroshot",
+    "sentence": 350,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 351,
+    "prompt_type": "zeroshot",
+    "sentence": 351,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 352,
+    "prompt_type": "zeroshot",
+    "sentence": 352,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 353,
+    "prompt_type": "zeroshot",
+    "sentence": 353,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 354,
+    "prompt_type": "zeroshot",
+    "sentence": 354,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 355,
+    "prompt_type": "zeroshot",
+    "sentence": 355,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 356,
+    "prompt_type": "zeroshot",
+    "sentence": 356,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 357,
+    "prompt_type": "zeroshot",
+    "sentence": 357,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 358,
+    "prompt_type": "zeroshot",
+    "sentence": 358,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 359,
+    "prompt_type": "zeroshot",
+    "sentence": 359,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 360,
+    "prompt_type": "zeroshot",
+    "sentence": 360,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 361,
+    "prompt_type": "zeroshot",
+    "sentence": 361,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 362,
+    "prompt_type": "zeroshot",
+    "sentence": 362,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 363,
+    "prompt_type": "zeroshot",
+    "sentence": 363,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 364,
+    "prompt_type": "zeroshot",
+    "sentence": 364,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 365,
+    "prompt_type": "zeroshot",
+    "sentence": 365,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 366,
+    "prompt_type": "zeroshot",
+    "sentence": 366,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 367,
+    "prompt_type": "zeroshot",
+    "sentence": 367,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 368,
+    "prompt_type": "zeroshot",
+    "sentence": 368,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 369,
+    "prompt_type": "zeroshot",
+    "sentence": 369,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 370,
+    "prompt_type": "zeroshot",
+    "sentence": 370,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 371,
+    "prompt_type": "zeroshot",
+    "sentence": 371,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 372,
+    "prompt_type": "zeroshot",
+    "sentence": 372,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 373,
+    "prompt_type": "zeroshot",
+    "sentence": 373,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 374,
+    "prompt_type": "zeroshot",
+    "sentence": 374,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 375,
+    "prompt_type": "zeroshot",
+    "sentence": 375,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 376,
+    "prompt_type": "zeroshot",
+    "sentence": 376,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 377,
+    "prompt_type": "zeroshot",
+    "sentence": 377,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 378,
+    "prompt_type": "zeroshot",
+    "sentence": 378,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 379,
+    "prompt_type": "zeroshot",
+    "sentence": 379,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 380,
+    "prompt_type": "zeroshot",
+    "sentence": 380,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 381,
+    "prompt_type": "zeroshot",
+    "sentence": 381,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 382,
+    "prompt_type": "zeroshot",
+    "sentence": 382,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 383,
+    "prompt_type": "zeroshot",
+    "sentence": 383,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 384,
+    "prompt_type": "zeroshot",
+    "sentence": 384,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 385,
+    "prompt_type": "zeroshot",
+    "sentence": 385,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 386,
+    "prompt_type": "zeroshot",
+    "sentence": 386,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 387,
+    "prompt_type": "zeroshot",
+    "sentence": 387,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 388,
+    "prompt_type": "zeroshot",
+    "sentence": 388,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 389,
+    "prompt_type": "zeroshot",
+    "sentence": 389,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 390,
+    "prompt_type": "zeroshot",
+    "sentence": 390,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 391,
+    "prompt_type": "zeroshot",
+    "sentence": 391,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 392,
+    "prompt_type": "zeroshot",
+    "sentence": 392,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 393,
+    "prompt_type": "zeroshot",
+    "sentence": 393,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 394,
+    "prompt_type": "zeroshot",
+    "sentence": 394,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 395,
+    "prompt_type": "zeroshot",
+    "sentence": 395,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 396,
+    "prompt_type": "zeroshot",
+    "sentence": 396,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 397,
+    "prompt_type": "zeroshot",
+    "sentence": 397,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 398,
+    "prompt_type": "zeroshot",
+    "sentence": 398,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 399,
+    "prompt_type": "zeroshot",
+    "sentence": 399,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 400,
+    "prompt_type": "zeroshot",
+    "sentence": 400,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 401,
+    "prompt_type": "zeroshot",
+    "sentence": 401,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 402,
+    "prompt_type": "zeroshot",
+    "sentence": 402,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 403,
+    "prompt_type": "zeroshot",
+    "sentence": 403,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 404,
+    "prompt_type": "zeroshot",
+    "sentence": 404,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 405,
+    "prompt_type": "zeroshot",
+    "sentence": 405,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 406,
+    "prompt_type": "zeroshot",
+    "sentence": 406,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 407,
+    "prompt_type": "zeroshot",
+    "sentence": 407,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 408,
+    "prompt_type": "zeroshot",
+    "sentence": 408,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 409,
+    "prompt_type": "zeroshot",
+    "sentence": 409,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 410,
+    "prompt_type": "zeroshot",
+    "sentence": 410,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 411,
+    "prompt_type": "zeroshot",
+    "sentence": 411,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 412,
+    "prompt_type": "zeroshot",
+    "sentence": 412,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 413,
+    "prompt_type": "zeroshot",
+    "sentence": 413,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 414,
+    "prompt_type": "zeroshot",
+    "sentence": 414,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 415,
+    "prompt_type": "zeroshot",
+    "sentence": 415,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 416,
+    "prompt_type": "zeroshot",
+    "sentence": 416,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 417,
+    "prompt_type": "zeroshot",
+    "sentence": 417,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 418,
+    "prompt_type": "zeroshot",
+    "sentence": 418,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 419,
+    "prompt_type": "zeroshot",
+    "sentence": 419,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 420,
+    "prompt_type": "zeroshot",
+    "sentence": 420,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 421,
+    "prompt_type": "zeroshot",
+    "sentence": 421,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 422,
+    "prompt_type": "zeroshot",
+    "sentence": 422,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 423,
+    "prompt_type": "zeroshot",
+    "sentence": 423,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 424,
+    "prompt_type": "zeroshot",
+    "sentence": 424,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 425,
+    "prompt_type": "zeroshot",
+    "sentence": 425,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 426,
+    "prompt_type": "zeroshot",
+    "sentence": 426,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 427,
+    "prompt_type": "zeroshot",
+    "sentence": 427,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 428,
+    "prompt_type": "zeroshot",
+    "sentence": 428,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 429,
+    "prompt_type": "zeroshot",
+    "sentence": 429,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 430,
+    "prompt_type": "zeroshot",
+    "sentence": 430,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 431,
+    "prompt_type": "zeroshot",
+    "sentence": 431,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 432,
+    "prompt_type": "zeroshot",
+    "sentence": 432,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 433,
+    "prompt_type": "zeroshot",
+    "sentence": 433,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 434,
+    "prompt_type": "zeroshot",
+    "sentence": 434,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 435,
+    "prompt_type": "zeroshot",
+    "sentence": 435,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 436,
+    "prompt_type": "zeroshot",
+    "sentence": 436,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 437,
+    "prompt_type": "zeroshot",
+    "sentence": 437,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 438,
+    "prompt_type": "zeroshot",
+    "sentence": 438,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 439,
+    "prompt_type": "zeroshot",
+    "sentence": 439,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 440,
+    "prompt_type": "zeroshot",
+    "sentence": 440,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 441,
+    "prompt_type": "zeroshot",
+    "sentence": 441,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 442,
+    "prompt_type": "zeroshot",
+    "sentence": 442,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 443,
+    "prompt_type": "zeroshot",
+    "sentence": 443,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 444,
+    "prompt_type": "zeroshot",
+    "sentence": 444,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 445,
+    "prompt_type": "zeroshot",
+    "sentence": 445,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 446,
+    "prompt_type": "zeroshot",
+    "sentence": 446,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 447,
+    "prompt_type": "zeroshot",
+    "sentence": 447,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 448,
+    "prompt_type": "zeroshot",
+    "sentence": 448,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 449,
+    "prompt_type": "zeroshot",
+    "sentence": 449,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 450,
+    "prompt_type": "zeroshot",
+    "sentence": 450,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 451,
+    "prompt_type": "zeroshot",
+    "sentence": 451,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 452,
+    "prompt_type": "zeroshot",
+    "sentence": 452,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 453,
+    "prompt_type": "zeroshot",
+    "sentence": 453,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 454,
+    "prompt_type": "zeroshot",
+    "sentence": 454,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 455,
+    "prompt_type": "zeroshot",
+    "sentence": 455,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 456,
+    "prompt_type": "zeroshot",
+    "sentence": 456,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 457,
+    "prompt_type": "zeroshot",
+    "sentence": 457,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 458,
+    "prompt_type": "zeroshot",
+    "sentence": 458,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 459,
+    "prompt_type": "zeroshot",
+    "sentence": 459,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 460,
+    "prompt_type": "zeroshot",
+    "sentence": 460,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 461,
+    "prompt_type": "zeroshot",
+    "sentence": 461,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 462,
+    "prompt_type": "zeroshot",
+    "sentence": 462,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 463,
+    "prompt_type": "zeroshot",
+    "sentence": 463,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 464,
+    "prompt_type": "zeroshot",
+    "sentence": 464,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 465,
+    "prompt_type": "zeroshot",
+    "sentence": 465,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 466,
+    "prompt_type": "zeroshot",
+    "sentence": 466,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 467,
+    "prompt_type": "zeroshot",
+    "sentence": 467,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 468,
+    "prompt_type": "zeroshot",
+    "sentence": 468,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 469,
+    "prompt_type": "zeroshot",
+    "sentence": 469,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 470,
+    "prompt_type": "zeroshot",
+    "sentence": 470,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 471,
+    "prompt_type": "zeroshot",
+    "sentence": 471,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 472,
+    "prompt_type": "zeroshot",
+    "sentence": 472,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 473,
+    "prompt_type": "zeroshot",
+    "sentence": 473,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 474,
+    "prompt_type": "zeroshot",
+    "sentence": 474,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 475,
+    "prompt_type": "zeroshot",
+    "sentence": 475,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 476,
+    "prompt_type": "zeroshot",
+    "sentence": 476,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 477,
+    "prompt_type": "zeroshot",
+    "sentence": 477,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 478,
+    "prompt_type": "zeroshot",
+    "sentence": 478,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 479,
+    "prompt_type": "zeroshot",
+    "sentence": 479,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 480,
+    "prompt_type": "zeroshot",
+    "sentence": 480,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 481,
+    "prompt_type": "zeroshot",
+    "sentence": 481,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 482,
+    "prompt_type": "zeroshot",
+    "sentence": 482,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 483,
+    "prompt_type": "zeroshot",
+    "sentence": 483,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 484,
+    "prompt_type": "zeroshot",
+    "sentence": 484,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 485,
+    "prompt_type": "zeroshot",
+    "sentence": 485,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 486,
+    "prompt_type": "zeroshot",
+    "sentence": 486,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 487,
+    "prompt_type": "zeroshot",
+    "sentence": 487,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 488,
+    "prompt_type": "zeroshot",
+    "sentence": 488,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 489,
+    "prompt_type": "zeroshot",
+    "sentence": 489,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 490,
+    "prompt_type": "zeroshot",
+    "sentence": 490,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 491,
+    "prompt_type": "zeroshot",
+    "sentence": 491,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 492,
+    "prompt_type": "zeroshot",
+    "sentence": 492,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 493,
+    "prompt_type": "zeroshot",
+    "sentence": 493,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 494,
+    "prompt_type": "zeroshot",
+    "sentence": 494,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 495,
+    "prompt_type": "zeroshot",
+    "sentence": 495,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 496,
+    "prompt_type": "zeroshot",
+    "sentence": 496,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 497,
+    "prompt_type": "zeroshot",
+    "sentence": 497,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 498,
+    "prompt_type": "zeroshot",
+    "sentence": 498,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 499,
+    "prompt_type": "zeroshot",
+    "sentence": 499,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 500,
+    "prompt_type": "zeroshot",
+    "sentence": 500,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 501,
+    "prompt_type": "zeroshot",
+    "sentence": 501,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 502,
+    "prompt_type": "zeroshot",
+    "sentence": 502,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 503,
+    "prompt_type": "zeroshot",
+    "sentence": 503,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 504,
+    "prompt_type": "zeroshot",
+    "sentence": 504,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 505,
+    "prompt_type": "zeroshot",
+    "sentence": 505,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 506,
+    "prompt_type": "zeroshot",
+    "sentence": 506,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 507,
+    "prompt_type": "zeroshot",
+    "sentence": 507,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 508,
+    "prompt_type": "zeroshot",
+    "sentence": 508,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 509,
+    "prompt_type": "zeroshot",
+    "sentence": 509,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 510,
+    "prompt_type": "zeroshot",
+    "sentence": 510,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 511,
+    "prompt_type": "zeroshot",
+    "sentence": 511,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 512,
+    "prompt_type": "zeroshot",
+    "sentence": 512,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 513,
+    "prompt_type": "zeroshot",
+    "sentence": 513,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 514,
+    "prompt_type": "zeroshot",
+    "sentence": 514,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 515,
+    "prompt_type": "zeroshot",
+    "sentence": 515,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 516,
+    "prompt_type": "zeroshot",
+    "sentence": 516,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 517,
+    "prompt_type": "zeroshot",
+    "sentence": 517,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 518,
+    "prompt_type": "zeroshot",
+    "sentence": 518,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 519,
+    "prompt_type": "zeroshot",
+    "sentence": 519,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 520,
+    "prompt_type": "zeroshot",
+    "sentence": 520,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 521,
+    "prompt_type": "zeroshot",
+    "sentence": 521,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 522,
+    "prompt_type": "zeroshot",
+    "sentence": 522,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 523,
+    "prompt_type": "zeroshot",
+    "sentence": 523,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 524,
+    "prompt_type": "zeroshot",
+    "sentence": 524,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 525,
+    "prompt_type": "zeroshot",
+    "sentence": 525,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 526,
+    "prompt_type": "zeroshot",
+    "sentence": 526,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 527,
+    "prompt_type": "zeroshot",
+    "sentence": 527,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 528,
+    "prompt_type": "zeroshot",
+    "sentence": 528,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 529,
+    "prompt_type": "zeroshot",
+    "sentence": 529,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 530,
+    "prompt_type": "zeroshot",
+    "sentence": 530,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 531,
+    "prompt_type": "zeroshot",
+    "sentence": 531,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 532,
+    "prompt_type": "zeroshot",
+    "sentence": 532,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 533,
+    "prompt_type": "zeroshot",
+    "sentence": 533,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 534,
+    "prompt_type": "zeroshot",
+    "sentence": 534,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 535,
+    "prompt_type": "zeroshot",
+    "sentence": 535,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 536,
+    "prompt_type": "zeroshot",
+    "sentence": 536,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 537,
+    "prompt_type": "zeroshot",
+    "sentence": 537,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 538,
+    "prompt_type": "zeroshot",
+    "sentence": 538,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 539,
+    "prompt_type": "zeroshot",
+    "sentence": 539,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 540,
+    "prompt_type": "zeroshot",
+    "sentence": 540,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 541,
+    "prompt_type": "zeroshot",
+    "sentence": 541,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 542,
+    "prompt_type": "zeroshot",
+    "sentence": 542,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 543,
+    "prompt_type": "zeroshot",
+    "sentence": 543,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 544,
+    "prompt_type": "zeroshot",
+    "sentence": 544,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 545,
+    "prompt_type": "zeroshot",
+    "sentence": 545,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 546,
+    "prompt_type": "zeroshot",
+    "sentence": 546,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 547,
+    "prompt_type": "zeroshot",
+    "sentence": 547,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 548,
+    "prompt_type": "zeroshot",
+    "sentence": 548,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 549,
+    "prompt_type": "zeroshot",
+    "sentence": 549,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 550,
+    "prompt_type": "zeroshot",
+    "sentence": 550,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 551,
+    "prompt_type": "zeroshot",
+    "sentence": 551,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 552,
+    "prompt_type": "zeroshot",
+    "sentence": 552,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 553,
+    "prompt_type": "zeroshot",
+    "sentence": 553,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 554,
+    "prompt_type": "zeroshot",
+    "sentence": 554,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 555,
+    "prompt_type": "zeroshot",
+    "sentence": 555,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 556,
+    "prompt_type": "zeroshot",
+    "sentence": 556,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 557,
+    "prompt_type": "zeroshot",
+    "sentence": 557,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 558,
+    "prompt_type": "zeroshot",
+    "sentence": 558,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 559,
+    "prompt_type": "zeroshot",
+    "sentence": 559,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 560,
+    "prompt_type": "zeroshot",
+    "sentence": 560,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 561,
+    "prompt_type": "zeroshot",
+    "sentence": 561,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 562,
+    "prompt_type": "zeroshot",
+    "sentence": 562,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 563,
+    "prompt_type": "zeroshot",
+    "sentence": 563,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 564,
+    "prompt_type": "zeroshot",
+    "sentence": 564,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 565,
+    "prompt_type": "zeroshot",
+    "sentence": 565,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 566,
+    "prompt_type": "zeroshot",
+    "sentence": 566,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 567,
+    "prompt_type": "zeroshot",
+    "sentence": 567,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 568,
+    "prompt_type": "zeroshot",
+    "sentence": 568,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 569,
+    "prompt_type": "zeroshot",
+    "sentence": 569,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 570,
+    "prompt_type": "zeroshot",
+    "sentence": 570,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 571,
+    "prompt_type": "zeroshot",
+    "sentence": 571,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 572,
+    "prompt_type": "zeroshot",
+    "sentence": 572,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 573,
+    "prompt_type": "zeroshot",
+    "sentence": 573,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 574,
+    "prompt_type": "zeroshot",
+    "sentence": 574,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 575,
+    "prompt_type": "zeroshot",
+    "sentence": 575,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 576,
+    "prompt_type": "zeroshot",
+    "sentence": 576,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 577,
+    "prompt_type": "zeroshot",
+    "sentence": 577,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 578,
+    "prompt_type": "zeroshot",
+    "sentence": 578,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 579,
+    "prompt_type": "zeroshot",
+    "sentence": 579,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 580,
+    "prompt_type": "zeroshot",
+    "sentence": 580,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 581,
+    "prompt_type": "zeroshot",
+    "sentence": 581,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 582,
+    "prompt_type": "zeroshot",
+    "sentence": 582,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 583,
+    "prompt_type": "zeroshot",
+    "sentence": 583,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 584,
+    "prompt_type": "zeroshot",
+    "sentence": 584,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 585,
+    "prompt_type": "zeroshot",
+    "sentence": 585,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 586,
+    "prompt_type": "zeroshot",
+    "sentence": 586,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 587,
+    "prompt_type": "zeroshot",
+    "sentence": 587,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 588,
+    "prompt_type": "zeroshot",
+    "sentence": 588,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 589,
+    "prompt_type": "zeroshot",
+    "sentence": 589,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 590,
+    "prompt_type": "zeroshot",
+    "sentence": 590,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 591,
+    "prompt_type": "zeroshot",
+    "sentence": 591,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 592,
+    "prompt_type": "zeroshot",
+    "sentence": 592,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 593,
+    "prompt_type": "zeroshot",
+    "sentence": 593,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 594,
+    "prompt_type": "zeroshot",
+    "sentence": 594,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 595,
+    "prompt_type": "zeroshot",
+    "sentence": 595,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 596,
+    "prompt_type": "zeroshot",
+    "sentence": 596,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 597,
+    "prompt_type": "zeroshot",
+    "sentence": 597,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 598,
+    "prompt_type": "zeroshot",
+    "sentence": 598,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 599,
+    "prompt_type": "zeroshot",
+    "sentence": 599,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 600,
+    "prompt_type": "zeroshot",
+    "sentence": 600,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 601,
+    "prompt_type": "zeroshot",
+    "sentence": 601,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 602,
+    "prompt_type": "zeroshot",
+    "sentence": 602,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 603,
+    "prompt_type": "zeroshot",
+    "sentence": 603,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 604,
+    "prompt_type": "zeroshot",
+    "sentence": 604,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 605,
+    "prompt_type": "zeroshot",
+    "sentence": 605,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 606,
+    "prompt_type": "zeroshot",
+    "sentence": 606,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 607,
+    "prompt_type": "zeroshot",
+    "sentence": 607,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 608,
+    "prompt_type": "zeroshot",
+    "sentence": 608,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 609,
+    "prompt_type": "zeroshot",
+    "sentence": 609,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 610,
+    "prompt_type": "zeroshot",
+    "sentence": 610,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 611,
+    "prompt_type": "zeroshot",
+    "sentence": 611,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 612,
+    "prompt_type": "zeroshot",
+    "sentence": 612,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 613,
+    "prompt_type": "zeroshot",
+    "sentence": 613,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 614,
+    "prompt_type": "zeroshot",
+    "sentence": 614,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 615,
+    "prompt_type": "zeroshot",
+    "sentence": 615,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 616,
+    "prompt_type": "zeroshot",
+    "sentence": 616,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  },
+  {
+    "id": 617,
+    "prompt_type": "zeroshot",
+    "sentence": 617,
+    "raw_response": "{\"physical_abuse\": false, \"emotional_abuse\": false, \"sexual_abuse\": false}",
+    "extracted_labels": [
+      "NOT_IPV"
+    ]
+  }
+]
