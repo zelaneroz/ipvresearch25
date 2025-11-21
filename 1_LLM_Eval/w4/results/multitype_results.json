@@ -1,0 +1,122 @@
+[
+  {
+    "date_tested": "2025-11-20",
+    "model": "qwen2.5-7b",
+    "prompt_version": "zeroshot",
+    "metrics_per_subgroup": {
+      "overall": {
+        "physical_true": {
+          "accuracy": 0.941747572815534,
+          "precision": 0.7714285714285715,
+          "recall": 0.7297297297297297,
+          "f1": 0.75,
+          "true_positives": 54,
+          "false_positives": 16,
+          "true_negatives": 528,
+          "false_negatives": 20
+        },
+        "emotional_true": {
+          "accuracy": 0.8446601941747572,
+          "precision": 0.7747440273037542,
+          "recall": 0.8832684824902723,
+          "f1": 0.8254545454545454,
+          "true_positives": 227,
+          "false_positives": 66,
+          "true_negatives": 295,
+          "false_negatives": 30
+        },
+        "sexual_true": {
+          "accuracy": 0.9627831715210357,
+          "precision": 0.5625,
+          "recall": 0.36,
+          "f1": 0.43902439024390244,
+          "true_positives": 9,
+          "false_positives": 7,
+          "true_negatives": 586,
+          "false_negatives": 16
+        }
+      }
+    },
+    "notes": "Evaluation of zeroshot prompt"
+  },
+  {
+    "date_tested": "2025-11-20",
+    "model": "qwen2.5-7b",
+    "prompt_version": "zeroshot",
+    "metrics_per_subgroup": {
+      "overall": {
+        "physical_true": {
+          "accuracy": 0.941747572815534,
+          "precision": 0.7714285714285715,
+          "recall": 0.7297297297297297,
+          "f1": 0.75,
+          "true_positives": 54,
+          "false_positives": 16,
+          "true_negatives": 528,
+          "false_negatives": 20
+        },
+        "emotional_true": {
+          "accuracy": 0.8446601941747572,
+          "precision": 0.7747440273037542,
+          "recall": 0.8832684824902723,
+          "f1": 0.8254545454545454,
+          "true_positives": 227,
+          "false_positives": 66,
+          "true_negatives": 295,
+          "false_negatives": 30
+        },
+        "sexual_true": {
+          "accuracy": 0.9627831715210357,
+          "precision": 0.5625,
+          "recall": 0.36,
+          "f1": 0.43902439024390244,
+          "true_positives": 9,
+          "false_positives": 7,
+          "true_negatives": 586,
+          "false_negatives": 16
+        }
+      }
+    },
+    "notes": "Evaluation of zeroshot prompt"
+  },
+  {
+    "date_tested": "2025-11-21",
+    "model": "qwen2.5-7b",
+    "prompt_version": "fewshot",
+    "metrics_per_subgroup": {
+      "overall": {
+        "physical_true": {
+          "accuracy": 0.9061488673139159,
+          "precision": 0.5784313725490197,
+          "recall": 0.7972972972972973,
+          "f1": 0.6704545454545454,
+          "true_positives": 59,
+          "false_positives": 43,
+          "true_negatives": 501,
+          "false_negatives": 15
+        },
+        "emotional_true": {
+          "accuracy": 0.8203883495145631,
+          "precision": 0.7967479674796748,
+          "recall": 0.7626459143968871,
+          "f1": 0.7793240556660039,
+          "true_positives": 196,
+          "false_positives": 50,
+          "true_negatives": 311,
+          "false_negatives": 61
+        },
+        "sexual_true": {
+          "accuracy": 0.9239482200647249,
+          "precision": 0.30357142857142855,
+          "recall": 0.68,
+          "f1": 0.4197530864197531,
+          "true_positives": 17,
+          "false_positives": 39,
+          "true_negatives": 554,
+          "false_negatives": 8
+        }
+      }
+    },
+    "notes": "Evaluation of fewshot prompt"
+  }
+]
