@@ -118,5 +118,29 @@
     },
     "notes": "Evaluation of zeroshot prompt",
     "date_tested": "2025-11-14 00:43:28"
+  },
+  {
+    "model_name": "qwen2.5-7b",
+    "prompt_version": "zeroshot",
+    "metrics": {
+      "Accuracy": 0.7588996763754046,
+      "F1": 0.7084148727984345,
+      "ROC_AUC": 0.7707580468946971,
+      "PR_AUC": 0.7778379129621014
+    },
+    "notes": "Evaluation of zeroshot prompt",
+    "date_tested": "2025-11-20 18:15:46"
+  },
+  {
+    "model_name": "qwen2.5-7b",
+    "prompt_version": "zeroshot_v2",
+    "metrics": {
+      "Accuracy": 0.5275080906148867,
+      "F1": 0.6906779661016949,
+      "ROC_AUC": 0.5,
+      "PR_AUC": 0.5275080906148867
+    },
+    "notes": "Evaluation of zeroshot_v2 prompt",
+    "date_tested": "2025-11-20 19:09:57"
   }
 ]
