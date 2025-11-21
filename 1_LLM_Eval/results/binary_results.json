@@ -121,7 +121,7 @@
   },
   {
     "model_name": "qwen2.5-7b",
-    "prompt_version": "zeroshot",
+    "prompt_version": "zeroshot_v1",
     "metrics": {
       "Accuracy": 0.7588996763754046,
       "F1": 0.7084148727984345,
