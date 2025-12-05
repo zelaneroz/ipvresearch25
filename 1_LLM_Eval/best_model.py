@@ -6,11 +6,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List
 import os
-
 import matplotlib.pyplot as plt
 
 
-RESULTS_PATH = Path(__file__).resolve().parent / "results" / "binary_results.json"
+RESULTS_PATH = Path(__file__).resolve().parent / "results" / "multitype_results.json"
 TOP_K = 3
 METRICS = ("Accuracy", "F1")
 
@@ -70,8 +69,8 @@ def plot_top_runs(runs: List[EvalRun], metrics: List[str], top_k: int) -> None:
 
     fig.tight_layout()
     plt.show()
-    PLOT_DIR="w4"
-    save_path = os.path.join(PLOT_DIR, "best_models.png")
+    PLOT_DIR="w4/qwen"
+    save_path = os.path.join(PLOT_DIR, "best_multilabel_prompt.png")
     plt.savefig(save_path, dpi=300)
     plt.close()
     print(f"Saved plot → {save_path}")

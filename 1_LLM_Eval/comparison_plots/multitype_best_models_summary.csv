@@ -1,0 +1,13 @@
+IPV Type,Metric,Best Model,Score
+Physical,Accuracy,qwen2.5-7b (zeroshot),0.9417
+Physical,Precision,qwen2.5-7b (zeroshot),0.7714
+Physical,Recall,qwen2.5-7b (fewshot),0.7973
+Physical,F1,qwen2.5-7b (zeroshot),0.7500
+Emotional,Accuracy,qwen2.5-7b (zeroshot),0.8447
+Emotional,Precision,qwen2.5-7b (fewshot),0.7967
+Emotional,Recall,qwen2.5-7b (zeroshot),0.8833
+Emotional,F1,qwen2.5-7b (zeroshot),0.8255
+Sexual,Accuracy,qwen2.5-7b (zeroshot),0.9628
+Sexual,Precision,qwen2.5-7b (zeroshot),0.5625
+Sexual,Recall,qwen2.5-7b (cot),0.8000
+Sexual,F1,qwen2.5-7b (zeroshot),0.4390

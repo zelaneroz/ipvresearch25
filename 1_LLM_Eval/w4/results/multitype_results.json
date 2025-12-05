@@ -118,5 +118,165 @@
       }
     },
     "notes": "Evaluation of fewshot prompt"
+  },
+  {
+    "date_tested": "2025-11-21",
+    "model": "qwen2.5-7b",
+    "prompt_version": "cot",
+    "metrics_per_subgroup": {
+      "overall": {
+        "physical_true": {
+          "accuracy": 0.93042071197411,
+          "precision": 0.6823529411764706,
+          "recall": 0.7837837837837838,
+          "f1": 0.7295597484276729,
+          "true_positives": 58,
+          "false_positives": 27,
+          "true_negatives": 517,
+          "false_negatives": 16
+        },
+        "emotional_true": {
+          "accuracy": 0.8284789644012945,
+          "precision": 0.7542087542087542,
+          "recall": 0.8715953307392996,
+          "f1": 0.8086642599277978,
+          "true_positives": 224,
+          "false_positives": 73,
+          "true_negatives": 288,
+          "false_negatives": 33
+        },
+        "sexual_true": {
+          "accuracy": 0.9466019417475728,
+          "precision": 0.3,
+          "recall": 0.24,
+          "f1": 0.2666666666666666,
+          "true_positives": 6,
+          "false_positives": 14,
+          "true_negatives": 579,
+          "false_negatives": 19
+        }
+      }
+    },
+    "notes": "Evaluation of cot prompt"
+  },
+  {
+    "date_tested": "2025-11-21",
+    "model": "qwen2.5-7b",
+    "prompt_version": "cot",
+    "metrics_per_subgroup": {
+      "overall": {
+        "physical_true": {
+          "accuracy": 0.5355987055016181,
+          "precision": 0.16614420062695925,
+          "recall": 0.7162162162162162,
+          "f1": 0.2697201017811705,
+          "true_positives": 53,
+          "false_positives": 266,
+          "true_negatives": 278,
+          "false_negatives": 21
+        },
+        "emotional_true": {
+          "accuracy": 0.5728155339805825,
+          "precision": 0.4914004914004914,
+          "recall": 0.7782101167315175,
+          "f1": 0.6024096385542169,
+          "true_positives": 200,
+          "false_positives": 207,
+          "true_negatives": 154,
+          "false_negatives": 57
+        },
+        "sexual_true": {
+          "accuracy": 0.5469255663430421,
+          "precision": 0.06779661016949153,
+          "recall": 0.8,
+          "f1": 0.125,
+          "true_positives": 20,
+          "false_positives": 275,
+          "true_negatives": 318,
+          "false_negatives": 5
+        }
+      }
+    },
+    "notes": "Evaluation of cot prompt"
+  },
+  {
+    "date_tested": "2025-11-21",
+    "model": "qwen2.5-7b",
+    "prompt_version": "selfconsistency",
+    "metrics_per_subgroup": {
+      "overall": {
+        "physical_true": {
+          "accuracy": 0.5355987055016181,
+          "precision": 0.16614420062695925,
+          "recall": 0.7162162162162162,
+          "f1": 0.2697201017811705,
+          "true_positives": 53,
+          "false_positives": 266,
+          "true_negatives": 278,
+          "false_negatives": 21
+        },
+        "emotional_true": {
+          "accuracy": 0.5728155339805825,
+          "precision": 0.4914004914004914,
+          "recall": 0.7782101167315175,
+          "f1": 0.6024096385542169,
+          "true_positives": 200,
+          "false_positives": 207,
+          "true_negatives": 154,
+          "false_negatives": 57
+        },
+        "sexual_true": {
+          "accuracy": 0.5469255663430421,
+          "precision": 0.06779661016949153,
+          "recall": 0.8,
+          "f1": 0.125,
+          "true_positives": 20,
+          "false_positives": 275,
+          "true_negatives": 318,
+          "false_negatives": 5
+        }
+      }
+    },
+    "notes": "Evaluation of selfconsistency prompt"
+  },
+  {
+    "date_tested": "2025-11-21",
+    "model": "qwen2.5-7b",
+    "prompt_version": "cot",
+    "metrics_per_subgroup": {
+      "overall": {
+        "physical_true": {
+          "accuracy": 0.93042071197411,
+          "precision": 0.6823529411764706,
+          "recall": 0.7837837837837838,
+          "f1": 0.7295597484276729,
+          "true_positives": 58,
+          "false_positives": 27,
+          "true_negatives": 517,
+          "false_negatives": 16
+        },
+        "emotional_true": {
+          "accuracy": 0.8284789644012945,
+          "precision": 0.7542087542087542,
+          "recall": 0.8715953307392996,
+          "f1": 0.8086642599277978,
+          "true_positives": 224,
+          "false_positives": 73,
+          "true_negatives": 288,
+          "false_negatives": 33
+        },
+        "sexual_true": {
+          "accuracy": 0.9466019417475728,
+          "precision": 0.3,
+          "recall": 0.24,
+          "f1": 0.2666666666666666,
+          "true_positives": 6,
+          "false_positives": 14,
+          "true_negatives": 579,
+          "false_negatives": 19
+        }
+      }
+    },
+    "notes": "Evaluation of cot prompt"
   }
 ]
